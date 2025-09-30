@@ -72,7 +72,41 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 		<link rel="stylesheet" href="assets/css/main.css">
-
+		<style>
+			/* Project styles */
+			.project-meta {
+				font-size: 0.9rem;
+				color: #666;
+			}
+			.project-meta span {
+				display: inline-block;
+				margin-bottom: 0.5rem;
+			}
+			.key-points ul {
+				padding-left: 1.2rem;
+				margin-bottom: 0;
+			}
+			.key-points li {
+				margin-bottom: 0.3rem;
+			}
+			.project-links {
+				margin-top: 1rem;
+			}
+			.badge {
+				font-size: 0.75rem;
+				padding: 0.4em 0.8em;
+			}
+			@media (max-width: 576px) {
+				.project-meta span {
+					display: block;
+				}
+				.project-links .btn {
+					margin-bottom: 0.5rem;
+					display: block;
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
 
 	<!-- Google tag (gtag.js) & Google Analytics -->
@@ -1340,7 +1374,7 @@
 							<div class="pub-authors mt-2">F. Chekin, K. Bagga, <span class="pub-author">P. Subramanian</span>, R. Jijie, S.K. Singh, S. Kurungot, R. Boukherroub, S. Szunerits</div>
 							<div class="pub-journal mt-2"><em>Sensors and Actuators B: Chemical</em>, 262, 991, 2018.</div>
 							<div class="publication-links mt-3">
-								<a href="https://doi.org/10.1016/j.snb.2018.02.077" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+								<a href="https://doi.org/10.1016/j.snb.2018.02.065" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
 								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2018-1')">
@@ -1904,7 +1938,8 @@
 							<div class="pub-congress">Talanta, 76,1022 (2008).</div>
 						</div>
 					</div>
-    				</div>	
+    			</div>	
+				</div>
 				</div>
 
 
@@ -2085,14 +2120,123 @@
 
 				<!-- Projects -->
 				<div class="col-md-8 offset-md-1" id="projectsContent">
-					<div class="container language">
-						🌲 
-						<span 
-							data-es="Tienes todo el tiempo en el mundo para diseñar esta página"
-							data-en="You have all the time in the world to design this page.">
-						</span>
-						🌍
+					<div class="container">
+						<div class="row mt-2 language">
+							<h2 class="mt-2">Projects</h2>
+
+							<!-- Advanced Materials Project -->
+							<div class="section-card mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Advanced Materials for Energy Storage</h4>
+									<span class="badge bg-success">Active</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2021 - Present</span>
+									<span class="me-3"><i class="fa-regular fa-building me-1"></i>NTC</span>
+									<span><i class="fa-regular fa-user me-1"></i>Lead Researcher</span>
+								</div>
+								<p class="justify">
+									Leading research initiatives in developing next-generation energy storage materials and devices.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Key Achievements:</h6>
+									<ul class="mb-3">
+										<li>Novel electrode materials for Li-ion batteries</li>
+										<li>Metal-air battery systems optimization</li>
+										<li>Advanced electrocatalyst design</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fa-regular fa-file-lines me-1"></i>Publications</a>
+									<a href="#" class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-arrow-up-right-from-square me-1"></i>Project Site</a>
+								</div>
+							</div>
+
+							<!-- Material Analytics -->
+							<div class="section-card-alt mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Materials Analytics Platform</h4>
+									<span class="badge bg-success">Active</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2021 - Present</span>
+									<span class="me-3"><i class="fa-regular fa-building me-1"></i>NTC</span>
+									<span><i class="fa-regular fa-user me-1"></i>Project Director</span>
+								</div>
+								<p class="justify">
+									Comprehensive material characterization and performance assessment platform development.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Key Features:</h6>
+									<ul class="mb-3">
+										<li>Advanced electrochemical characterization</li>
+										<li>Surface analysis automation</li>
+										<li>Real-time performance monitoring</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fa-brands fa-github me-1"></i>Repository</a>
+									<a href="#" class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-arrow-up-right-from-square me-1"></i>Documentation</a>
+								</div>
+							</div>
+
+							<!-- Fuel Cell Research -->
+							<div class="section-card mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Fuel Cell Technology Development</h4>
+									<span class="badge bg-success">Active</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2021 - Present</span>
+									<span class="me-3"><i class="fa-regular fa-building me-1"></i>NTC</span>
+									<span><i class="fa-regular fa-user me-1"></i>Team Lead</span>
+								</div>
+								<p class="justify">
+									Advanced fuel cell systems development focusing on efficiency and durability improvements.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Major Milestones:</h6>
+									<ul class="mb-3">
+										<li>Novel catalyst material development</li>
+										<li>Electrode structure optimization</li>
+										<li>Commercial scale-up validation</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fa-regular fa-file-lines me-1"></i>Publications</a>
+									<a href="#" class="btn btn-sm btn-outline-info"><i class="fa-regular fa-presentation-screen me-1"></i>Results</a>
+								</div>
+							</div>
+
+							<!-- Past Projects -->
+							<div class="section-card-alt mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Academic Research Portfolio</h4>
+									<span class="badge bg-secondary">Completed</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2014 - 2021</span>
+									<span class="me-3"><i class="fa-regular fa-buildings me-1"></i>Multiple Institutions</span>
+									<span><i class="fa-regular fa-user me-1"></i>Researcher</span>
+								</div>
+								<p class="justify">
+									Research projects across multiple international institutions focusing on advanced materials and electrochemistry.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Key Projects:</h6>
+									<ul class="mb-3">
+										<li>Electroanalytical methods (KU Leuven)</li>
+										<li>Zinc-air battery research (Ewha Woman's University)</li>
+										<li>Plasmon-induced transformations (Ariel University)</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary"><i class="fa-regular fa-file-lines me-1"></i>Publications</a>
+								</div>
+							</div>
+
 						</div>
+					</div>
 				</div>
 
 				<!-- Photos -->
@@ -2134,46 +2278,37 @@
 			}
 		});
 
-				// Navbar section switching logic
-				function showSection(sectionId) {
-					// Hide all content sections
-					const sections = [
-						'homeContent', 'aboutmeContent', 'educationContent', 'publicationsContent',
-						'blogContent', 'academicContent', 'conferencesContent', 'experienceContent', 'projectsContent'
-					];
-					sections.forEach(id => {
-						const el = document.getElementById(id);
-						if (el) {
-							el.style.display = 'none';
-							el.classList.remove('active');
-						}
-					});
-					// Show selected section
-					const activeSection = document.getElementById(sectionId);
-					if (activeSection) {
-						activeSection.style.display = '';
-						activeSection.classList.add('active');
-					}
-					// Set active class on navbar
-					document.querySelectorAll('#navbarList .nav-link').forEach(link => {
-						link.classList.remove('active');
-					});
-					const navLink = document.getElementById(sectionId.replace('Content', ''));
-					if (navLink) {
-						navLink.classList.add('active');
-					}
-				}
+                // Show Home section by default
+                $(document).ready(function() {
+                    // Hide all sections except home
+                    $('#aboutmeContent').hide();
+                    $('#educationContent').hide();
+                    $('#publicationsContent').hide();
+                    $('#blogContent').hide();
+                    $('#projectsContent').hide();
+                    $('#academicContent').hide();
+                    $('#conferencesContent').hide();
+                    $('#experienceContent').hide();
 
-				// Add click listeners for navbar items
-				document.querySelectorAll('#navbarList .nav-link').forEach(link => {
-					link.addEventListener('click', function(e) {
-						e.preventDefault();
-						showSection(this.id + 'Content');
-					});
-				});
+                    // Show home section
+                    $('#homeContent').show();
 
-				// Show Home section by default
-				showSection('homeContent');
+                    // Handle navigation clicks
+                    $('#navbarList .nav-link').on('click', function(e) {
+                        e.preventDefault();
+                        const targetSection = '#' + this.id + 'Content';
+                        
+                        // Hide all sections
+                        $('.content').hide();
+                        
+                        // Show target section
+                        $(targetSection).show();
+                        
+                        // Update active state in nav
+                        $('#navbarList .nav-link').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                });
 	});
 
 	// Toggle abstract visibility
