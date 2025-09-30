@@ -72,7 +72,41 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 		<link rel="stylesheet" href="assets/css/main.css">
-
+		<style>
+			/* Project styles */
+			.project-meta {
+				font-size: 0.9rem;
+				color: #666;
+			}
+			.project-meta span {
+				display: inline-block;
+				margin-bottom: 0.5rem;
+			}
+			.key-points ul {
+				padding-left: 1.2rem;
+				margin-bottom: 0;
+			}
+			.key-points li {
+				margin-bottom: 0.3rem;
+			}
+			.project-links {
+				margin-top: 1rem;
+			}
+			.badge {
+				font-size: 0.75rem;
+				padding: 0.4em 0.8em;
+			}
+			@media (max-width: 576px) {
+				.project-meta span {
+					display: block;
+				}
+				.project-links .btn {
+					margin-bottom: 0.5rem;
+					display: block;
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
 
 	<!-- Google tag (gtag.js) & Google Analytics -->
@@ -221,8 +255,7 @@
 						<img src="assets/documents/imgs/palam.jpeg" class="rounded-circle mb-3 profilepicture" alt="Dr. Palaniappan Subramanian profile picture">
 						<h3 class="mb-2">Dr. Palaniappan Subramanian</h3>
 						<p class="mb-2 small text-muted">ORCID: <a href="http://orcid.org/0000-0003-1000-6994" target="_blank" class="profile-link">0000-0003-1000-6994</a><br>Researcher ID: B-1179-2012</p>
-						<p class="mb-2 small text-muted">Date of Birth: 8th February 1983, Devakottai, India</p>
-						<p class="mb-2 small text-muted">Telephone: <a href="tel:+420735715965" class="profile-link">+420 735 715 965</a><br>Email: <a href="mailto:palans@ntc.zcu.cz" class="profile-link">palans@ntc.zcu.cz</a></p>
+						<p class="mb-2 small text-muted">Email: <a href="mailto:palam83@gmail.com" class="profile-link">palam83@gmail.com</a></p>
 					</div>
 				</div>
 				</div>
@@ -343,6 +376,69 @@
 					</div>
 				</div>
 
+
+                <!-- Blog -->
+				<div class="col-md-8 offset-md-1 mb-5" id="blogContent">
+					<div class="container">
+						<div class="row mt-2 language">
+							<h2 class="mb-4"
+								data-es="Blog"
+								data-en="Blog">
+							</h2>
+
+							<!-- Latest Research Blog Post -->
+							<div class="section-card mb-4">
+								<h3>Latest Developments in Fuel Cell Technology</h3>
+								<p class="text-muted mb-2">Published: February 15, 2024</p>
+								<p class="justify">
+									Recent advances in fuel cell technology have opened new possibilities for sustainable energy solutions. Our research team at NTC has been exploring novel materials and architectures that could significantly improve the efficiency and durability of fuel cells. This post discusses our latest findings and their potential impact on the field.
+								</p>
+								<div class="key-points mt-3">
+									<h5>Key Points:</h5>
+									<ul>
+										<li>Enhanced catalyst performance using advanced nanostructures</li>
+										<li>Improved membrane durability through novel composite materials</li>
+										<li>Reduced platinum loading while maintaining performance</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Technical Article -->
+							<div class="section-card-alt mb-4">
+								<h3>Metal-Air Batteries: A Comprehensive Overview</h3>
+								<p class="text-muted mb-2">Published: January 20, 2024</p>
+								<p class="justify">
+									Metal-air batteries represent a promising technology for next-generation energy storage. This article explores the fundamental principles, current challenges, and future prospects of metal-air battery systems, drawing from our extensive research experience in this field.
+								</p>
+								<div class="key-points mt-3">
+									<h5>Topics Covered:</h5>
+									<ul>
+										<li>Basic principles of metal-air battery operation</li>
+										<li>Current technological challenges and solutions</li>
+										<li>Recent breakthroughs in electrode materials</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Research Update -->
+							<div class="section-card mb-4">
+								<h3>Progress in Green Hydrogen Production</h3>
+								<p class="text-muted mb-2">Published: December 10, 2023</p>
+								<p class="justify">
+									Green hydrogen production through water electrolysis is gaining significant attention in the renewable energy sector. This post summarizes our recent research efforts in developing efficient and cost-effective electrocatalysts for water splitting reactions.
+								</p>
+								<div class="key-points mt-3">
+									<h5>Research Highlights:</h5>
+									<ul>
+										<li>Development of novel non-precious metal catalysts</li>
+										<li>Optimization of electrode architectures</li>
+										<li>Scale-up considerations for industrial applications</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<!-- Education -->
 				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
@@ -581,8 +677,8 @@
 							<a href="https://scholar.google.com/citations?user=8wcTeFgAAAAJ&hl=en" target="_blank" class="btn btn-primary me-3">
 								<i class="ai ai-google-scholar me-2"></i>Google Scholar Profile
 							</a>
-							<a href="https://www.researchgate.net/profile/Palaniappan-Subramanian" target="_blank" class="btn btn-outline-primary">
-								<i class="ai ai-researchgate me-2"></i>ResearchGate
+							<a href="https://www.linkedin.com/in/palaniappan-subramanian-2999ab1a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn btn-outline-primary">
+								<i class="fa-brands fa-linkedin me-2"></i>LinkedIn
 							</a>
 						</div>
 					<!-- 2025 -->
@@ -593,11 +689,8 @@
 							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, V. Vavruňková, T. Křenek, L.Vála, S. A. Khan, J. Minár, M. Koštejn, R. Medlín, P. Mikysek, V. Jandová</div>
 							<div class="pub-journal mt-2"><em>RSC Advances</em>, 15, 26371, 2025.</div>
 							<div class="publication-links mt-3">
-								<a href="https://doi.org/10.1039/D5RA16926J" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+								<a href="https://doi.org/10.1039/D5RA03059E" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
-								</a>
-								<a href="https://scholar.google.com/scholar?q=One+step+laser-induced+synthesis+bimetallic+iron+cobalt+sulfide" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
 								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2025-1')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
@@ -617,9 +710,6 @@
 								<a href="https://doi.org/10.1016/j.jallcom.2025.182283" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
 								</a>
-								<a href="https://scholar.google.com/scholar?q=Unveiling+binder-free+hierarchically+interlinked+MoS2+nanosheet" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
-								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2025-2')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
 								</button>
@@ -637,9 +727,6 @@
 							<div class="publication-links mt-3">
 								<a href="https://doi.org/10.1016/j.jallcom.2025.182267" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
-								</a>
-								<a href="https://scholar.google.com/scholar?q=Designing+high-performance+electrode+dual-material+synergy" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
 								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2025-3')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
@@ -659,9 +746,6 @@
 								<a href="https://doi.org/10.1016/j.jpowsour.2025.236301" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
 								</a>
-								<a href="https://scholar.google.com/scholar?q=Multiphase+PtPdSb+nanoparticles+dimethyl+ether" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
-								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2025-4')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
 								</button>
@@ -677,11 +761,8 @@
 							<div class="pub-authors mt-2">W. Zhang, B. Natarajan, P. Kannan, R. Medlín, L. C. Nicolai, M. Procházka, J. Minar, <span class="pub-author">P. Subramanian</span></div>
 							<div class="pub-journal mt-2"><em>Biosensors and Bioelectronics</em>, 270, 116938, 2025.</div>
 							<div class="publication-links mt-3">
-								<a href="https://doi.org/10.1016/j.bios.2025.116938" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+								<a href="https://doi.org/10.1016/j.bios.2024.116938" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
-								</a>
-								<a href="https://scholar.google.com/scholar?q=porous+cobalt+nanoparticle+nitrogen+doped+hollow+carbon+exendin-4" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
 								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2025-5')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
@@ -698,11 +779,8 @@
 							<div class="pub-authors mt-2">P. Sivakumar, J. Balamurugan, C J. Raj, <span class="pub-author">P. Subramanian</span>, A. D. Savariraj, R. Manikandan, H. Jung</div>
 							<div class="pub-journal mt-2"><em>Journal of Materials Chemistry A</em>, 13, 5961, 2025.</div>
 							<div class="publication-links mt-3">
-								<a href="https://doi.org/10.1039/D4TA07899K" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+								<a href="https://doi.org/10.1039/D4TA06866A" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
-								</a>
-								<a href="https://scholar.google.com/scholar?q=MOF-derived+nickel+cobaltite+supercapacitor" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
 								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2025-6')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
@@ -726,9 +804,6 @@
 								<a href="https://doi.org/10.1016/j.microc.2024.110890" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
 								</a>
-								<a href="https://scholar.google.com/scholar?q=Metal+nanoparticles+electrochemical+biosensing+neutrophil+gelatinase+lipocalin" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
-								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2024-1')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
 								</button>
@@ -744,11 +819,8 @@
 							<div class="pub-authors mt-2">C. Bhuvaneswari, R. Shanmugam, A. Elangovan, P. S. Kumar, C. Sharmila, K. Sudha, G. Arivazhagan, <span class="pub-author">P. Subramanian</span></div>
 							<div class="pub-journal mt-2"><em>Food Chemistry</em> 437, 137874, 2024.</div>
 							<div class="publication-links mt-3">
-								<a href="https://doi.org/10.1016/j.foodchem.2024.137874" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+								<a href="https://doi.org/10.1016/j.foodchem.2023.137874" target="_blank" class="btn btn-outline-primary btn-sm me-2">
 									<i class="fa-solid fa-external-link me-1"></i>DOI
-								</a>
-								<a href="https://scholar.google.com/scholar?q=Voltammetric+nano-molar+quantification+agrochemical+pesticide+strontium+pyrophosphate" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-									<i class="ai ai-google-scholar me-1"></i>Scholar
 								</a>
 								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2024-2')">
 									<i class="fa-solid fa-file-text me-1"></i>Abstract
@@ -764,543 +836,1524 @@
 					<!-- 2023 -->
 					<div class="row mt-3">
 						<h2 class="pub-year-h2">2023</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Grain boundaries derived from layered Fe/Co di-hydroxide porous prickly-like nanosheets as potential electrocatalyst for efficient electrooxidation of hydrazine</div>
-							<div class="pub-authors mt-1">C. Sun, L. Lei, P. Kannan, P. Subramanian, S. Ji</div>
-							<div class="pub-congress">Applied Surface Science, 639, 158265, 2023.</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Grain boundaries derived from layered Fe/Co di-hydroxide porous prickly-like nanosheets as potential electrocatalyst for efficient electrooxidation of hydrazine</div>
+							<div class="pub-authors mt-2">C. Sun, L. Lei, P. Kannan, <span class="pub-author">P. Subramanian</span>, S. Ji</div>
+							<div class="pub-journal mt-2"><em>Applied Surface Science</em>, 639, 158265, 2023.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.apsusc.2023.158265" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2023-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2023-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Novel layered Fe/Co di-hydroxide nanosheets with grain boundary defects demonstrate enhanced electrocatalytic activity for hydrazine electrooxidation, offering efficient electrode materials for energy conversion applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Metal-organic framework-derived cation regulation of metal sulfides for enhanced oxygen evolution activity</div>
-							<div class="pub-authors mt-1">K. Wan, J. Luo, W. Liu, T. Zhang, J. Arbiol, X. Zhang, P. Subramanian, Z. Fu, J. Fransaer</div>
-							<div class="pub-congress">Chinese Journal of Catalysis, 54, 290, 2023.</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Metal-organic framework-derived cation regulation of metal sulfides for enhanced oxygen evolution activity</div>
+							<div class="pub-authors mt-2">K. Wan, J. Luo, W. Liu, T. Zhang, J. Arbiol, X. Zhang, <span class="pub-author">P. Subramanian</span>, Z. Fu, J. Fransaer</div>
+							<div class="pub-journal mt-2"><em>Chinese Journal of Catalysis</em>, 54, 290, 2023.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/S1872-2067(23)64533-4" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2023-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2023-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									MOF-derived metal sulfides with controlled cation regulation exhibit superior oxygen evolution reaction activity, providing insights into structure-activity relationships for water splitting catalysts.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Chemical-Dealloying-Derived PtPdPb-Based Multimetallic Nanoparticles: Dimethyl Ether Electrocatalysis and Fuel Cell Application</div>
-							<div class="pub-authors mt-1">M. G. Gebru, P. Subramanian, P. Bělský, R. S. Yadav, Itay Pitussi, S. Sasi, R. Medlín, J.Minar, P. Švec, H. Kornweitz, A. Schechter</div>
-							<div class="pub-congress">ACS Appl. Mater. Interfaces, 15, 56930, 2023.</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Chemical-Dealloying-Derived PtPdPb-Based Multimetallic Nanoparticles: Dimethyl Ether Electrocatalysis and Fuel Cell Application</div>
+							<div class="pub-authors mt-2">M. G. Gebru, <span class="pub-author">P. Subramanian</span>, P. Bělský, R. S. Yadav, Itay Pitussi, S. Sasi, R. Medlín, J.Minar, P. Švec, H. Kornweitz, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>ACS Applied Materials & Interfaces</em>, 15, 56930, 2023.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1021/acsami.3c11003" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2023-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2023-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Chemical dealloying synthesis of PtPdPb multimetallic nanoparticles demonstrates enhanced electrocatalytic performance for dimethyl ether oxidation in direct fuel cell applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Harnessing dimethyl ether and methyl formate fuels for direct electrochemical energy conversion</div>
-							<div class="pub-authors mt-1">M. G. Gebru, R. S. Yadav, H. Teller, H. Kornweitz, P.Subramanian*, A. Schechter*</div>
-							<div class="pub-congress">Journal of Energy Chemistry, 83, 454, 2023.</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Harnessing dimethyl ether and methyl formate fuels for direct electrochemical energy conversion</div>
+							<div class="pub-authors mt-2">M. G. Gebru, R. S. Yadav, H. Teller, H. Kornweitz, <span class="pub-author">P. Subramanian*</span>, A. Schechter*</div>
+							<div class="pub-journal mt-2"><em>Journal of Energy Chemistry</em>, 83, 454, 2023.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.jechem.2023.05.001" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2023-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2023-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Comprehensive study on utilizing dimethyl ether and methyl formate as alternative fuels for direct electrochemical energy conversion systems, demonstrating their potential for sustainable energy applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2022 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2022</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Nonthermal Plasma‐Modified Carbon‐Carrying Sn‐Based Ternary Nanocatalyst for High‐Performance Direct Dimethyl Ether Fuel Cells</div>
-							<div class="pub-authors mt-1">M.G. Gebru, H. Teller, P. Subramanian*, A Schechter</div>
-							<div class="pub-congress">Energy Technology, 2200835, 2022.</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Nonthermal Plasma Modified Carbon Carrying Sn‐Based Ternary Nanocatalyst for High‐Performance Direct Dimethyl Ether Fuel Cells</div>
+							<div class="pub-authors mt-2">M.G. Gebru, H. Teller, <span class="pub-author">P. Subramanian*</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Energy Technology</em>, 2200835, 2022.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/ente.202200835" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2022-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2022-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nonthermal plasma modification of carbon-supported Sn-based ternary nanocatalysts enhances performance in direct dimethyl ether fuel cells through improved surface properties and catalytic activity.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Ni2P Nanoparticle-Inserted Porous Layered NiO Hetero-Structured Nanosheets as a Durable Catalyst for the Electro-Oxidation of Urea</div>
-							<div class="pub-authors mt-1">K. Ma, H. Wang, P. Kannan, P. Subramanian*</div>
-							<div class="pub-congress">Nanomaterials, 20, 3633 (2022).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Ni2P Nanoparticle-Inserted Porous Layered NiO Hetero-Structured Nanosheets as a Durable Catalyst for the Electro-Oxidation of Urea</div>
+							<div class="pub-authors mt-2">K. Ma, H. Wang, P. Kannan, <span class="pub-author">P. Subramanian*</span></div>
+							<div class="pub-journal mt-2"><em>Nanomaterials</em>, 12, 3633, 2022.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.3390/nano12203633" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2022-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2022-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Novel hetero-structured nanosheets combining Ni2P nanoparticles with porous layered NiO demonstrate exceptional durability and efficiency for urea electro-oxidation applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Sn-based Atokite Alloy Nanocatalyst for High-Power Dimethyl Ether Fueled Low-Temperature Polymer Electrolyte Fuel Cell</div>
-							<div class="pub-authors mt-1">D. Kashyap, H. Teller, P. Subramanian, P. Bělský, M.G. Gebrua, I.Pitussi, R. S. Yadav, H. Kornweitz, A. Schechter</div>
-							<div class="pub-congress">J. Power Sources, 544, 21882 (2022).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Sn-based Atokite Alloy Nanocatalyst for High-Power Dimethyl Ether Fueled Low-Temperature Polymer Electrolyte Fuel Cell</div>
+							<div class="pub-authors mt-2">D. Kashyap, H. Teller, <span class="pub-author">P. Subramanian</span>, P. Bělský, M.G. Gebru, I.Pitussi, R. S. Yadav, H. Kornweitz, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Journal of Power Sources</em>, 544, 231882, 2022.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.jpowsour.2022.231882" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2022-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2022-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Sn-based atokite alloy nanocatalysts enable high-power dimethyl ether-fueled low-temperature polymer electrolyte fuel cells with enhanced performance and stability.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Critical Role of Phosphorus in Hollow Structures Cobalt-Based Phosphides as Bifunctional Catalysts for Water Splitting</div>
-							<div class="pub-authors mt-1">W. Zhang, N. Han, J. Luo, X. Han, S. Feng, W. Guo, S. Xie, Z. Zhou, P. Subramanian, K. Wan, J. Arbiol, C. Zhang, S. Liu, M. Xu, X. Zhang, J. Fransaer</div>
-							<div class="pub-congress">Small, 18, 2103561(2022).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Critical Role of Phosphorus in Hollow Structures Cobalt-Based Phosphides as Bifunctional Catalysts for Water Splitting</div>
+							<div class="pub-authors mt-2">W. Zhang, N. Han, J. Luo, X. Han, S. Feng, W. Guo, S. Xie, Z. Zhou, <span class="pub-author">P. Subramanian</span>, K. Wan, J. Arbiol, C. Zhang, S. Liu, M. Xu, X. Zhang, J. Fransaer</div>
+							<div class="pub-journal mt-2"><em>Small</em>, 18, 2103561, 2022.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/smll.202103561" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2022-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2022-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Investigation of phosphorus role in hollow-structured cobalt-based phosphides reveals enhanced bifunctional catalytic activity for both hydrogen and oxygen evolution reactions in water splitting applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2021 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2021</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Co Nanoparticle-Encapsulated Nitrogen-Doped Carbon Nanotubes as an Efficient and Robust Catalyst for Electro-Oxidation of Hydrazine</div>
-							<div class="pub-authors mt-1">H. Wang, Q. Dong, L.Lei, S. Ji, P. Kannan, P. Subramanian, A.P. Yadav</div>
-							<div class="pub-congress">Nanomaterials, 11, 2857, (2021).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Co Nanoparticle-Encapsulated Nitrogen-Doped Carbon Nanotubes as an Efficient and Robust Catalyst for Electro-Oxidation of Hydrazine</div>
+							<div class="pub-authors mt-2">H. Wang, Q. Dong, L.Lei, S. Ji, P. Kannan, <span class="pub-author">P. Subramanian</span>, A.P. Yadav</div>
+							<div class="pub-journal mt-2"><em>Nanomaterials</em>, 11, 2857, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.3390/nano11112857" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2021-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2021-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Co nanoparticles encapsulated in nitrogen-doped carbon nanotubes demonstrate exceptional efficiency and robustness for hydrazine electro-oxidation, offering promising applications in fuel cells and energy conversion.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Sulfur-modified nickel selenide as an efficient electrocatalyst for the oxygen evolution reaction</div>
-							<div class="pub-authors mt-1">K. Wan, J. Luo, X. Zhang, P. Subramanian, J. Fransaer</div>
-							<div class="pub-congress">J. Energy Chem, 62, 198 (2021).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Sulfur-modified nickel selenide as an efficient electrocatalyst for the oxygen evolution reaction</div>
+							<div class="pub-authors mt-2">K. Wan, J. Luo, X. Zhang, <span class="pub-author">P. Subramanian</span>, J. Fransaer</div>
+							<div class="pub-journal mt-2"><em>Journal of Energy Chemistry</em>, 62, 198, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.jechem.2021.03.013" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2021-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2021-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Sulfur modification of nickel selenide creates an efficient electrocatalyst for oxygen evolution reaction with enhanced activity and stability for water splitting applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Co, Fe-ions intercalated Ni(OH)2 network-like nanosheet arrays as highly efficient non-noble catalyst for electro-oxidation of urea</div>
-							<div class="pub-authors mt-1">H. Wanga, L.Lu, P. Subramanian, S. Ji, P. Kannan</div>
-							<div class="pub-congress">Int. J. Hydrogen Energy, 46, 34318 (2021).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Co, Fe-ions intercalated Ni(OH)2 network-like nanosheet arrays as highly efficient non-noble catalyst for electro-oxidation of urea</div>
+							<div class="pub-authors mt-2">H. Wang, L.Lu, <span class="pub-author">P. Subramanian</span>, S. Ji, P. Kannan</div>
+							<div class="pub-journal mt-2"><em>International Journal of Hydrogen Energy</em>, 46, 34318, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.ijhydene.2021.08.022" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2021-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2021-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Co and Fe ions intercalated into Ni(OH)2 network-like nanosheet arrays create highly efficient non-noble metal catalysts for urea electro-oxidation with exceptional performance.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Rational construction of hierarchical Ni (OH)2-NiS in-plane edge hybrid nanosheet structures on the carbon cloth as a robust catalyst for electro-oxidation of urea</div>
-							<div class="pub-authors mt-1">H. Wang, L. Zhang, H. Jiang, P. Kannan, R. Wang, P. Subramanian, S Ji</div>
-							<div class="pub-congress">J. Alloys Compd, 870, 159486 (2021).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Rational construction of hierarchical Ni (OH)2-NiS in-plane edge hybrid nanosheet structures on the carbon cloth as a robust catalyst for electro-oxidation of urea</div>
+							<div class="pub-authors mt-2">H. Wang, L. Zhang, H. Jiang, P. Kannan, R. Wang, <span class="pub-author">P. Subramanian</span>, S. Ji</div>
+							<div class="pub-journal mt-2"><em>Journal of Alloys and Compounds</em>, 870, 159486, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.jallcom.2021.159486" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2021-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2021-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Hierarchical Ni(OH)2-NiS hybrid nanosheet structures on carbon cloth demonstrate robust catalytic performance for urea electro-oxidation through rational in-plane edge design.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">α‐Co(OH)2 Thin‐Layered Cactus‐Like Nanostructures Wrapped Ni3S2 Nanowires: A Robust and Potential Catalyst for Electro‐oxidation of Hydrazine</div>
-							<div class="pub-authors mt-1">Y. Xie, Z. Wang, H. Wang, L. Lu, P. Subramanian, S. Ji, P. Kannan</div>
-							<div class="pub-congress">ChemElectroChem, 8, 937 (2021).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">α‐Co(OH)2 Thin‐Layered Cactus‐Like Nanostructures Wrapped Ni3S2 Nanowires: A Robust and Potential Catalyst for Electro‐oxidation of Hydrazine</div>
+							<div class="pub-authors mt-2">Y. Xie, Z. Wang, H. Wang, L. Lu, <span class="pub-author">P. Subramanian</span>, S. Ji, P. Kannan</div>
+							<div class="pub-journal mt-2"><em>ChemElectroChem</em>, 8, 937, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/celc.202100068" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2021-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2021-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Unique cactus-like α-Co(OH)2 nanostructures wrapped around Ni3S2 nanowires create robust and efficient catalysts for hydrazine electro-oxidation with enhanced stability and performance.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">MnOOH nanoparticles integrated nitrogen doped porous nanosheet-like carbon network as a non-noble catalyst for electro-oxidation of sodium borohydride</div>
-							<div class="pub-authors mt-1">H. Wang, J, Ding, P. Kannan, P. Subramanian, S. Ji</div>
-							<div class="pub-congress">Int. J. Hydrogen Energy, 46, 9380 (2021).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">MnOOH nanoparticles integrated nitrogen doped porous nanosheet-like carbon network as a non-noble catalyst for electro-oxidation of sodium borohydride</div>
+							<div class="pub-authors mt-2">H. Wang, J. Ding, P. Kannan, <span class="pub-author">P. Subramanian</span>, S. Ji</div>
+							<div class="pub-journal mt-2"><em>International Journal of Hydrogen Energy</em>, 46, 9380, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.ijhydene.2020.12.082" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2021-6')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2021-6" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									MnOOH nanoparticles integrated with nitrogen-doped porous carbon nanosheets provide efficient non-noble metal catalysts for sodium borohydride electro-oxidation in fuel cell applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2020 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2020</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Reduced graphene oxide-based field effect transistors for the detection of E7 protein of human papillomavirus in saliva</div>
-							<div class="pub-authors mt-1">P. Aspermair, V. Mishyn, J. Bintinger, H. Happy, K. Bagga, P. Subramanian, W. Knoll, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Anal. Bioanal. Chem. 413, 779 (2021).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Reduced graphene oxide-based field effect transistors for the detection of E7 protein of human papillomavirus in saliva</div>
+							<div class="pub-authors mt-2">P. Aspermair, V. Mishyn, J. Bintinger, H. Happy, K. Bagga, <span class="pub-author">P. Subramanian</span>, W. Knoll, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Analytical and Bioanalytical Chemistry</em>, 413, 779, 2021.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s00216-020-02879-z" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Reduced graphene oxide-based field effect transistors enable sensitive detection of E7 protein from human papillomavirus in saliva samples, providing a non-invasive diagnostic approach.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Nitrogen-doped mesoporous carbon nanosheet network entrapped nickel nanoparticles as an efficient catalyst for electro-oxidation of glycerol</div>
-							<div class="pub-authors mt-1">H. Wang, J. Ding, P. Kannan, P. Subramanian, S. Ji</div>
-							<div class="pub-congress">Int. J. Hydrogen Energy, 45, 28821 (2020).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Nitrogen-doped mesoporous carbon nanosheet network entrapped nickel nanoparticles as an efficient catalyst for electro-oxidation of glycerol</div>
+							<div class="pub-authors mt-2">H. Wang, J. Ding, P. Kannan, <span class="pub-author">P. Subramanian</span>, S. Ji</div>
+							<div class="pub-journal mt-2"><em>International Journal of Hydrogen Energy</em>, 45, 28821, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.ijhydene.2020.07.269" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nitrogen-doped mesoporous carbon nanosheets with entrapped nickel nanoparticles demonstrate efficient catalytic performance for glycerol electro-oxidation in energy conversion applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Pd-Decorated Tungsten as Pt-Free Bimetallic Catalysts for Hydrogen Oxidation Reaction in Alkaline Electrolyte</div>
-							<div class="pub-authors mt-1">A.C. Arulrajan, P. Subramanian, R.K. Singh, A. Schechter</div>
-							<div class="pub-congress">Isr. J. Chem., 60, 563 (2020).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Pd-Decorated Tungsten as Pt-Free Bimetallic Catalysts for Hydrogen Oxidation Reaction in Alkaline Electrolyte</div>
+							<div class="pub-authors mt-2">A.C. Arulrajan, <span class="pub-author">P. Subramanian</span>, R.K. Singh, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Israel Journal of Chemistry</em>, 60, 563, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/ijch.201900140" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Palladium-decorated tungsten catalysts offer platinum-free alternatives for hydrogen oxidation reactions in alkaline electrolytes, demonstrating enhanced performance and cost-effectiveness.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Electrochemical Oxidation of Glycine by Bimetallic Nickel‐Manganese Oxide Catalysts</div>
-							<div class="pub-authors mt-1">R. Mohan, A. Modak , P. Subramanian , R. Cahan, P. Sivakumar, A. Schechter, A. Gedanken</div>
-							<div class="pub-congress">ChemElectroChem, 7, 561 (2020).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Electrochemical Oxidation of Glycine by Bimetallic Nickel‐Manganese Oxide Catalysts</div>
+							<div class="pub-authors mt-2">R. Mohan, A. Modak, <span class="pub-author">P. Subramanian</span>, R. Cahan, P. Sivakumar, A. Schechter, A. Gedanken</div>
+							<div class="pub-journal mt-2"><em>ChemElectroChem</em>, 7, 561, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/celc.201901996" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Bimetallic nickel-manganese oxide catalysts demonstrate efficient electrochemical oxidation of glycine, providing insights for amino acid conversion and energy applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Enhanced electrocatalytic hydrogen evolution on a plasmonic electrode: the importance of the Ti/TiO2 adhesion layer</div>
-							<div class="pub-authors mt-1">L. Pang, A. Barras, V. Mishyn, G. Sandu, S. Melinte, P. Subramanian, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">J. Mater. Chem. A, 8, 10395 (2020).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Enhanced electrocatalytic hydrogen evolution on a plasmonic electrode: the importance of the Ti/TiO2 adhesion layer</div>
+							<div class="pub-authors mt-2">L. Pang, A. Barras, V. Mishyn, G. Sandu, S. Melinte, <span class="pub-author">P. Subramanian</span>, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Journal of Materials Chemistry A</em>, 8, 10395, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/D0TA02353A" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Investigation of Ti/TiO2 adhesion layer importance in plasmonic electrodes reveals enhanced electrocatalytic hydrogen evolution performance through optimized interface engineering.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Plasmon-enhanced electrocatalytic oxygen reduction in alkaline media on gold nanohole electrodes</div>
-							<div class="pub-authors mt-1">T.N.Saada, A.G.M.Silva, P. Subramanian, L. Pang, N. Adnane, B. D-Rouhani, V. Mishyn, D. Meziane, S. Melinte, G. Sandu, F. Dumeignil, S. Paul, R. Wojcieszak, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">J. Mater. Chem. A, 8, 13980 (2020).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Plasmon-enhanced electrocatalytic oxygen reduction in alkaline media on gold nanohole electrodes</div>
+							<div class="pub-authors mt-2">T.N.Saada, A.G.M.Silva, <span class="pub-author">P. Subramanian</span>, L. Pang, N. Adnane, B. D-Rouhani, V. Mishyn, D. Meziane, S. Melinte, G. Sandu, F. Dumeignil, S. Paul, R. Wojcieszak, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Journal of Materials Chemistry A</em>, 8, 13980, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C9TA14174J" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-6')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-6" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Gold nanohole electrodes with plasmon enhancement demonstrate improved electrocatalytic oxygen reduction in alkaline media, advancing efficient fuel cell technology.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Electrochemical deposition of metal-organic frameworks and their applications (Review)</div>
-							<div class="pub-authors mt-1">X. Zhang, K. Wan, P. Subramanian, M-W. Xu, J. Luo, J. Fransaer</div>
-							<div class="pub-congress">J. Mater. Chem. A, 8, 7569 (2020).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Electrochemical deposition of metal-organic frameworks and their applications (Review)</div>
+							<div class="pub-authors mt-2">X. Zhang, K. Wan, <span class="pub-author">P. Subramanian</span>, M-W. Xu, J. Luo, J. Fransaer</div>
+							<div class="pub-journal mt-2"><em>Journal of Materials Chemistry A</em>, 8, 7569, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/D0TA00406E" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-7')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-7" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Comprehensive review of electrochemical deposition methods for metal-organic frameworks and their diverse applications in energy storage, catalysis, and sensing technologies.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">MnO2 cacti-like nanostructured platform powers the enhanced electrochemical immunobiosensing of cortisol</div>
-							<div class="pub-authors mt-1">Q. Zhou, P. Kannan, B. Natarajan, T. Maiyalagan, P. Subramanian, Z. Jiang, S. Mao</div>
-							<div class="pub-congress">Sens. Actuators, B, 317,128134 (2020).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">MnO2 cacti-like nanostructured platform powers the enhanced electrochemical immunobiosensing of cortisol</div>
+							<div class="pub-authors mt-2">Q. Zhou, P. Kannan, B. Natarajan, T. Maiyalagan, <span class="pub-author">P. Subramanian</span>, Z. Jiang, S. Mao</div>
+							<div class="pub-journal mt-2"><em>Sensors and Actuators B: Chemical</em>, 317, 128134, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.snb.2020.128134" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-8')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-8" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									MnO2 cacti-like nanostructures create enhanced electrochemical immunobiosensing platforms for sensitive cortisol detection with improved analytical performance.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">In-situ formation of Ni (oxy)hydroxide on Ni foam as an efficient electrocatalyst for oxygen evolution reaction</div>
-							<div class="pub-authors mt-1">K.Wan, J.Luo, X. Zhang, P. Subramanian, J. Fransaer</div>
-							<div class="pub-congress">Int. J. Hydrogen Energy, 45, 8490 (2020).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">In-situ formation of Ni (oxy)hydroxide on Ni foam as an efficient electrocatalyst for oxygen evolution reaction</div>
+							<div class="pub-authors mt-2">K.Wan, J.Luo, X. Zhang, <span class="pub-author">P. Subramanian</span>, J. Fransaer</div>
+							<div class="pub-journal mt-2"><em>International Journal of Hydrogen Energy</em>, 45, 8490, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.ijhydene.2020.01.043" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-9')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-9" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									In-situ formation of Ni (oxy)hydroxide on Ni foam creates efficient electrocatalysts for oxygen evolution reaction with enhanced activity and stability for water splitting.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Nickel-Phosphate Pompon Flowers Nanostructured Network Enables the Sensitive Detection of MicroRNA</div>
-							<div class="pub-authors mt-1">P. Kannan, T. Maiyalagan, B. Lin, W. Lei, C. Jie, L. Guo, Z. Jiang, S. Mao, P. Subramanian</div>
-							<div class="pub-congress">Talanta, 209, 120511 (2020).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Nickel-Phosphate Pompon Flowers Nanostructured Network Enables the Sensitive Detection of MicroRNA</div>
+							<div class="pub-authors mt-2">P. Kannan, T. Maiyalagan, B. Lin, W. Lei, C. Jie, L. Guo, Z. Jiang, S. Mao, <span class="pub-author">P. Subramanian</span></div>
+							<div class="pub-journal mt-2"><em>Talanta</em>, 209, 120511, 2020.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.talanta.2019.120511" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2020-10')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2020-10" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nickel-phosphate pompon flowers nanostructured networks provide sensitive and selective platforms for microRNA detection with enhanced biosensing capabilities.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2019 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2019</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Grain Boundaries of Co(OH)2-Ni-Cu Nanosheets on the Cotton Fabric Substrate For Stable and Efficient Electro-Oxidation of Hydrazine</div>
-							<div class="pub-authors mt-1">H. Jiang, Z. Wang, P. Kannan, H. Wang, R.Wang, P. Subramanian, S. Ji</div>
-							<div class="pub-congress">Int. J. Hydrogen Energy, 44, 24591 (2019).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Grain Boundaries of Co(OH)2-Ni-Cu Nanosheets on the Cotton Fabric Substrate For Stable and Efficient Electro-Oxidation of Hydrazine</div>
+							<div class="pub-authors mt-2">H. Jiang, Z. Wang, P. Kannan, H. Wang, R.Wang, <span class="pub-author">P. Subramanian</span>, S. Ji</div>
+							<div class="pub-journal mt-2"><em>International Journal of Hydrogen Energy</em>, 44, 24591, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.ijhydene.2019.07.164" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Co(OH)2-Ni-Cu nanosheets with engineered grain boundaries on cotton fabric substrates provide stable and efficient platforms for hydrazine electro-oxidation applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Template-Directed Bifunctional NiSx/Nitrogen-Doped Mesoporous Carbon Electrocatalyst for Rechargeable Zn-Air Batteries</div>
-							<div class="pub-authors mt-1">K. Wan, J. Luo, X. Zhang, C. Zhou, J. W. Seo, P. Subramanian, J-W. Yan, J. Fransaer</div>
-							<div class="pub-congress">J. Mater. Chem. A, 7,19889 (2019).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Template-Directed Bifunctional NiSx/Nitrogen-Doped Mesoporous Carbon Electrocatalyst for Rechargeable Zn-Air Batteries</div>
+							<div class="pub-authors mt-2">K. Wan, J. Luo, X. Zhang, C. Zhou, J. W. Seo, <span class="pub-author">P. Subramanian</span>, J-W. Yan, J. Fransaer</div>
+							<div class="pub-journal mt-2"><em>Journal of Materials Chemistry A</em>, 7, 19889, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C9TA06446J" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Template-directed synthesis of bifunctional NiSx/nitrogen-doped mesoporous carbon electrocatalysts demonstrates excellent performance for rechargeable Zn-air battery applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Catalytic Current Mapping of Oxygen Reduction on Isolated Pt Particles by Atomic Force Microscopy-Scanning Electrochemical Microscopy</div>
-							<div class="pub-authors mt-1">S. Kolagatla, P. Subramanian, A. Schechter</div>
-							<div class="pub-congress">Appl. Catal., B, 256, 117843 (2019).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Catalytic Current Mapping of Oxygen Reduction on Isolated Pt Particles by Atomic Force Microscopy-Scanning Electrochemical Microscopy</div>
+							<div class="pub-authors mt-2">S. Kolagatla, <span class="pub-author">P. Subramanian</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Applied Catalysis B: Environmental</em>, 256, 117843, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.apcatb.2019.117843" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Advanced AFM-SECM technique enables precise catalytic current mapping of oxygen reduction on isolated Pt particles, providing insights into single-particle electrocatalytic behavior.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Simultaneous Mapping of Oxygen Reduction Activity and Hydrogen Peroxide Generation on Electrocatalytic Surfaces</div>
-							<div class="pub-authors mt-1">S Kolagatla, P. Subramanian, A. Schechter</div>
-							<div class="pub-congress">ChemSusChem, 12, 2708 (2019).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Simultaneous Mapping of Oxygen Reduction Activity and Hydrogen Peroxide Generation on Electrocatalytic Surfaces</div>
+							<div class="pub-authors mt-2">S. Kolagatla, <span class="pub-author">P. Subramanian</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>ChemSusChem</em>, 12, 2708, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/cssc.201900656" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Simultaneous electrochemical mapping reveals oxygen reduction activity and hydrogen peroxide generation patterns on electrocatalytic surfaces for optimized fuel cell design.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Ternary Nickel Cobalt Manganese Spinel Oxide Nanoparticles as Heterogeneous Electrocatalysts for Oxygen Evolution and Oxygen Reduction Reaction</div>
-							<div class="pub-authors mt-1">P. Sivakumar*, P. Subramanian*, T. Maiyalagan, A. Gedanken, A. Schechter</div>
-							<div class="pub-congress">Mater. Chem. Phys., 229, 190 (2019).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Ternary Nickel Cobalt Manganese Spinel Oxide Nanoparticles as Heterogeneous Electrocatalysts for Oxygen Evolution and Oxygen Reduction Reaction</div>
+							<div class="pub-authors mt-2">P. Sivakumar*, <span class="pub-author">P. Subramanian*</span>, T. Maiyalagan, A. Gedanken, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Materials Chemistry and Physics</em>, 229, 190, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.matchemphys.2019.03.017" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Ternary NiCoMn spinel oxide nanoparticles demonstrate bifunctional electrocatalytic activity for both oxygen evolution and reduction reactions in energy conversion applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Cobalt Oxide Porous Nanocubes-Based Electrochemical Immunobiosensing of Hepatitis B Virus DNA in Blood Serum and Urine Samples</div>
-							<div class="pub-authors mt-1">P. Kannan, P. Subramanian, T. Maiyalagan, Z. Jiang</div>
-							<div class="pub-congress">Anal. Chem., 91, 5824 (2019).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Cobalt Oxide Porous Nanocubes-Based Electrochemical Immunobiosensing of Hepatitis B Virus DNA in Blood Serum and Urine Samples</div>
+							<div class="pub-authors mt-2">P. Kannan, <span class="pub-author">P. Subramanian</span>, T. Maiyalagan, Z. Jiang</div>
+							<div class="pub-journal mt-2"><em>Analytical Chemistry</em>, 91, 5824, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1021/acs.analchem.9b00153" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-6')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-6" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Cobalt oxide porous nanocubes enable sensitive electrochemical immunobiosensing for Hepatitis B virus DNA detection in clinical samples including blood serum and urine.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Hierarchical Core-Shell Structured Ni3S2/NiMoO4 Nanowires: A High-Performance and Reusable Electrochemical Sensor for Glucose Detection</div>
-							<div class="pub-authors mt-1">P. Kannan, F. Chen, H. Jiang, H Wang, R. Wang, P. Subramanian, S. Ji</div>
-							<div class="pub-congress">Analyst, 144, 4925(2019).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Hierarchical Core-Shell Structured Ni3S2/NiMoO4 Nanowires: A High-Performance and Reusable Electrochemical Sensor for Glucose Detection</div>
+							<div class="pub-authors mt-2">P. Kannan, F. Chen, H. Jiang, H Wang, R. Wang, <span class="pub-author">P. Subramanian</span>, S. Ji</div>
+							<div class="pub-journal mt-2"><em>Analyst</em>, 144, 4925, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C9AN00917E" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-7')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-7" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Hierarchical core-shell Ni3S2/NiMoO4 nanowires provide high-performance, reusable electrochemical sensors for sensitive glucose detection with excellent stability and selectivity.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Plasmon-Induced Electrocatalysis With Multi-Component Nanostructures (Review - Open Access)</div>
-							<div class="pub-authors mt-1">P. Subramanian, D. Meziane, R. Wojcieszak, F. Dumeignil, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Materials, 12, 43 (2019).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Plasmon-Induced Electrocatalysis With Multi-Component Nanostructures (Review - Open Access)</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, D. Meziane, R. Wojcieszak, F. Dumeignil, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Materials</em>, 12, 43, 2019.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.3390/ma12010043" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2019-8')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2019-8" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Comprehensive review of plasmon-induced electrocatalysis using multi-component nanostructures, exploring mechanisms and applications in energy conversion and chemical synthesis.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2018 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2018</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Nucleic Aptamer Modified Porous Reduced Graphene Oxide/MoS2 Based Electrodes for Viral Detection: Application to Human Papillomavirus (HPV)</div>
-							<div class="pub-authors mt-1">F. Chekin, K. Bagga, P. Subramanian, R. Jijie, S.K. Singh, S. Kurungot, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Sens. Actuators, B, 262, 991 (2018).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Nucleic Aptamer Modified Porous Reduced Graphene Oxide/MoS2 Based Electrodes for Viral Detection: Application to Human Papillomavirus (HPV)</div>
+							<div class="pub-authors mt-2">F. Chekin, K. Bagga, <span class="pub-author">P. Subramanian</span>, R. Jijie, S.K. Singh, S. Kurungot, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Sensors and Actuators B: Chemical</em>, 262, 991, 2018.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.snb.2018.02.065" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2018-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2018-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nucleic aptamer modified porous reduced graphene oxide/MoS2 electrodes enable sensitive viral detection with specific application to Human Papillomavirus (HPV) diagnosis.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Nanoscale Mapping of Catalytic Hotspots on Fe, N-Modified HOPG by Scanning Electrochemical Microscopy-Atomic Force Microscopy</div>
-							<div class="pub-authors mt-1">S. Kolagatla, P. Subramanian, A. Schechter</div>
-							<div class="pub-congress">Nanoscale, 10, 6962 (2018).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Nanoscale Mapping of Catalytic Hotspots on Fe, N-Modified HOPG by Scanning Electrochemical Microscopy-Atomic Force Microscopy</div>
+							<div class="pub-authors mt-2">S. Kolagatla, <span class="pub-author">P. Subramanian</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Nanoscale</em>, 10, 6962, 2018.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C8NR00849C" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2018-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2018-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Advanced SECM-AFM techniques enable nanoscale mapping of catalytic hotspots on Fe, N-modified HOPG surfaces, revealing structure-activity relationships at the nanometer scale.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Titanium Hydride - A Stable Support For Pt Catalysts in Oxygen Reduction Reaction</div>
-							<div class="pub-authors mt-1">O. Krichevski, O, H. Teller, P. Subramanian, S. Kolagatla, A. Schechter</div>
-							<div class="pub-congress">J. Solid State Electrochem., 22, 2049 (2018).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Titanium Hydride - A Stable Support For Pt Catalysts in Oxygen Reduction Reaction</div>
+							<div class="pub-authors mt-2">O. Krichevski, H. Teller, <span class="pub-author">P. Subramanian</span>, S. Kolagatla, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Journal of Solid State Electrochemistry</em>, 22, 2049, 2018.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s10008-018-3916-0" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2018-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2018-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Titanium hydride demonstrates exceptional stability as a support material for Pt catalysts in oxygen reduction reactions, offering enhanced durability for fuel cell applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Improved Conductivity and Antibacterial Activity of Poly(2-Aminothiophenol)-Silver Nanocomposite Against Human Pathogens</div>
-							<div class="pub-authors mt-1">P.Boomi, J.A, Raj, P. Subramanian, G.Poorani, S.Selvam, H.Gurumallesh Prabu, P.Manisankar, J.Jeyakanthan, V.K.Langeswaran</div>
-							<div class="pub-congress">J. Photochem. Photobiol., B,178, 323 (2018).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Improved Conductivity and Antibacterial Activity of Poly(2-Aminothiophenol)-Silver Nanocomposite Against Human Pathogens</div>
+							<div class="pub-authors mt-2">P.Boomi, J.A. Raj, <span class="pub-author">P. Subramanian</span>, G.Poorani, S.Selvam, H.Gurumallesh Prabu, P.Manisankar, J.Jeyakanthan, V.K.Langeswaran</div>
+							<div class="pub-journal mt-2"><em>Journal of Photochemistry and Photobiology B: Biology</em>, 178, 323, 2018.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s10854-024-12177-4" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2018-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2018-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Poly(2-aminothiophenol)-silver nanocomposite demonstrates enhanced conductivity and antibacterial activity against human pathogens, offering potential biomedical applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2017 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2017</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Electrochemical Oxygen Reduction Activity of Metal Embedded Nitrogen Doped Carbon Nanostructures Derived From Pyrolysis of Nitrogen-Rich Guanidinium Salt</div>
-							<div class="pub-authors mt-1">P. Sivakumar*, P. Subramanian*, T. Maiyalagan, N. Perkas, A. Gedanken, A. Schechter</div>
-							<div class="pub-congress">J. Electrochem. Soc., 164, F781 (2017).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Electrochemical Oxygen Reduction Activity of Metal Embedded Nitrogen Doped Carbon Nanostructures Derived From Pyrolysis of Nitrogen-Rich Guanidinium Salt</div>
+							<div class="pub-authors mt-2">P. Sivakumar*, <span class="pub-author">P. Subramanian*</span>, T. Maiyalagan, N. Perkas, A. Gedanken, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Journal of The Electrochemical Society</em>, 164, F781, 2017.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1149/2.0651707jes" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2017-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2017-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Metal-embedded nitrogen-doped carbon nanostructures from guanidinium salt pyrolysis demonstrate enhanced electrochemical oxygen reduction activity for fuel cell applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Unraveling the Oxygen Reduction Sites in Graphitic Carbon Co-N-C Type Electrocatalysts Prepared from Single Precursor Pyrolysis</div>
-							<div class="pub-authors mt-1">P. Subramanian, R. Mohan, A. Schechter</div>
-							<div class="pub-congress">ChemCatChem, 9,1969 (2017).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Unraveling the Oxygen Reduction Sites in Graphitic Carbon Co-N-C Type Electrocatalysts Prepared from Single Precursor Pyrolysis</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, R. Mohan, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>ChemCatChem</em>, 9, 1969, 2017.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/cctc.201700324" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2017-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2017-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Investigation of oxygen reduction sites in graphitic carbon Co-N-C electrocatalysts reveals structure-activity relationships for single precursor pyrolysis methods.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Enhanced Activity of Urea Oxidation on Nickel Deposited Tin Dendrites Catalyst</div>
-							<div class="pub-authors mt-1">R. K. Singh*, P. Subramanian*, A. Schechter</div>
-							<div class="pub-congress">ChemElectroChem, 4, 1037 (2017).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Enhanced Activity of Urea Oxidation on Nickel Deposited Tin Dendrites Catalyst</div>
+							<div class="pub-authors mt-2">R. K. Singh*, <span class="pub-author">P. Subramanian*</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>ChemElectroChem</em>, 4, 1037, 2017.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/celc.201600862" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2017-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2017-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nickel-deposited tin dendrites catalysts demonstrate enhanced urea oxidation activity, offering improved performance for direct urea fuel cell applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Atomic Force Microscopic And Raman Investigation of Boron-Doped Diamond Nanowire Electrodes and their Activity toward Oxygen Reduction</div>
-							<div class="pub-authors mt-1">P. Subramanian, S. Kolagatla, S. Szunerits, Y. Coffinier, W. S. Yeap, K. Haenen, R. Boukherroub, A. Schechter</div>
-							<div class="pub-congress">J. Phys. Chem. C, 121, 3397 (2017).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Atomic Force Microscopic And Raman Investigation of Boron-Doped Diamond Nanowire Electrodes and their Activity toward Oxygen Reduction</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, S. Kolagatla, S. Szunerits, Y. Coffinier, W. S. Yeap, K. Haenen, R. Boukherroub, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Journal of Physical Chemistry C</em>, 121, 3397, 2017.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1021/acs.jpcc.6b11546" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2017-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2017-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									AFM and Raman investigation of boron-doped diamond nanowire electrodes reveals their electrochemical activity toward oxygen reduction with promising fuel cell applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2016 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2016</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Polyoxometalates Entrapped in Sol-Gel Matrices for Reducing Electron Exchange Column Applications</div>
-							<div class="pub-authors mt-1">N. Singh, Y. Albo, D. Shamir, A. Burg, P. Subramanian, G. Goobes, D. Meyerstein</div>
-							<div class="pub-congress">J. Coord. Chem., 69, 3449 (2016).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Polyoxometalates Entrapped in Sol-Gel Matrices for Reducing Electron Exchange Column Applications</div>
+							<div class="pub-authors mt-2">N. Singh, Y. Albo, D. Shamir, A. Burg, <span class="pub-author">P. Subramanian</span>, G. Goobes, D. Meyerstein</div>
+							<div class="pub-journal mt-2"><em>Journal of Coordination Chemistry</em>, 69, 3449, 2016.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1080/00958972.2016.1231764" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2016-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2016-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Polyoxometalates entrapped in sol-gel matrices create efficient reducing electron exchange columns for electrochemical applications with enhanced stability and performance.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Green Synthesis of Reduced Graphene Oxide-Silver Nanoparticles using Environmentally Friendly L-Arginine for H2O2 Detection</div>
-							<div class="pub-authors mt-1">A. A. Nafiey, P. Subramanian, A. Addad, B. Sieber, S. Szunerits, R. Boukherroub</div>
-							<div class="pub-congress">ECS J. Solid State Sci. Technol., 5, M3060 (2016).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Green Synthesis of Reduced Graphene Oxide-Silver Nanoparticles using Environmentally Friendly L-Arginine for H2O2 Detection</div>
+							<div class="pub-authors mt-2">A. A. Nafiey, <span class="pub-author">P. Subramanian</span>, A. Addad, B. Sieber, S. Szunerits, R. Boukherroub</div>
+							<div class="pub-journal mt-2"><em>ECS Journal of Solid State Science and Technology</em>, 5, M3060, 2016.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1149/2.0121610jss" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2016-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2016-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Green synthesis approach using L-arginine produces reduced graphene oxide-silver nanoparticles for sensitive and environmentally friendly H2O2 detection applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Insights on the Electrochemical Atomic Force Microscopic Catalytic Oxygen Reduction on Tip Guided Platinum Particle Deposits</div>
-							<div class="pub-authors mt-1">S. Kolagatla, P. Subramanian, A. Schechter</div>
-							<div class="pub-congress">Electrochim. Acta, 217, 100 (2016).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Insights on the Electrochemical Atomic Force Microscopic Catalytic Oxygen Reduction on Tip Guided Platinum Particle Deposits</div>
+							<div class="pub-authors mt-2">S. Kolagatla, <span class="pub-author">P. Subramanian</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Electrochimica Acta</em>, 217, 100, 2016.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.electacta.2016.09.042" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2016-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2016-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Electrochemical atomic force microscopy provides insights into catalytic oxygen reduction on tip-guided platinum particle deposits, revealing nanoscale electrochemical behavior.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Highly Sensitive Electrochemical Interface for Lysozyme Sensing</div>
-							<div class="pub-authors mt-1">Q. Wang, P. Subramanian, A. Schechter, E. Teblum, R. Yemini, G. D. Nessim, A. Vasilescu, M. Li, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">ACS Appl. Mater. Interfaces, 8, 9600 (2016).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Highly Sensitive Electrochemical Interface for Lysozyme Sensing</div>
+							<div class="pub-authors mt-2">Q. Wang, <span class="pub-author">P. Subramanian</span>, A. Schechter, E. Teblum, R. Yemini, G. D. Nessim, A. Vasilescu, M. Li, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>ACS Applied Materials & Interfaces</em>, 8, 9600, 2016.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1021/acsami.6b00663" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2016-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2016-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Development of highly sensitive electrochemical interfaces enables precise lysozyme sensing with enhanced detection capabilities for protein analysis applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Exceptionally Active and Stable Spinel Nickel Manganese Oxide Electrocatalysts for Urea Oxidation Reaction</div>
-							<div class="pub-authors mt-1">P.Sivakumar*, P. Subramanian*, A. Schechter, A. Gedanken</div>
-							<div class="pub-congress">ACS Appl. Mater. Interfaces, 8, 12176 (2016).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Exceptionally Active and Stable Spinel Nickel Manganese Oxide Electrocatalysts for Urea Oxidation Reaction</div>
+							<div class="pub-authors mt-2">P.Sivakumar*, <span class="pub-author">P. Subramanian*</span>, A. Schechter, A. Gedanken</div>
+							<div class="pub-journal mt-2"><em>ACS Applied Materials & Interfaces</em>, 8, 12176, 2016.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1021/acsami.6b02491" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2016-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2016-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Spinel nickel manganese oxide electrocatalysts demonstrate exceptional activity and stability for urea oxidation reactions, advancing direct urea fuel cell technology.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Electrochemical Oxygen Reduction Activity of Cobalt-Nitrogen-Carbon Composite Catalyst Prepared by Single Precursor Pyrolysis under Autogenic Pressure</div>
-							<div class="pub-authors mt-1">P. Subramanian, A. Schechter</div>
-							<div class="pub-congress">J. Electrochem. Soc.,163, F428 (2016).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Electrochemical Oxygen Reduction Activity of Cobalt-Nitrogen-Carbon Composite Catalyst Prepared by Single Precursor Pyrolysis under Autogenic Pressure</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Journal of The Electrochemical Society</em>, 163, F428, 2016.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1149/2.117165jes" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2016-6')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2016-6" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Cobalt-nitrogen-carbon composite catalysts prepared by single precursor pyrolysis under autogenic pressure exhibit enhanced electrochemical oxygen reduction activity for fuel cells.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2015 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2015</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">The Synthesis of ß-Sn Nano Structure Electrodes for Methanol Electro-Oxidation</div>
-							<div class="pub-authors mt-1">O. Krichevski, H. Teller, P. Subramanian, A. Schechter</div>
-							<div class="pub-congress">Electrocatalysis, 6, 554 (2015).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">The Synthesis of ß-Sn Nano Structure Electrodes for Methanol Electro-Oxidation</div>
+							<div class="pub-authors mt-2">O. Krichevski, H. Teller, <span class="pub-author">P. Subramanian</span>, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Electrocatalysis</em>, 6, 554, 2015.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s12678-015-0273-y" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2015-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2015-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Synthesis of β-Sn nanostructure electrodes demonstrates enhanced performance for methanol electro-oxidation, offering promising applications in direct methanol fuel cells.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2014 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2014</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Electrocatalytic Activity of Nitrogen Plasma Treated Vertically Aligned Carbon Nanotube Carpets towards Oxygen Reduction Reaction</div>
-							<div class="pub-authors mt-1">P. Subramanian, A. Cohen, E. Teblum, G. D. Nessim, E. Bormasheko, A. Schechter</div>
-							<div class="pub-congress">Electrochem. Commun., 49, 42 (2014).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Electrocatalytic Activity of Nitrogen Plasma Treated Vertically Aligned Carbon Nanotube Carpets towards Oxygen Reduction Reaction</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, A. Cohen, E. Teblum, G. D. Nessim, E. Bormasheko, A. Schechter</div>
+							<div class="pub-journal mt-2"><em>Electrochemistry Communications</em>, 49, 42, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.elecom.2014.10.005" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nitrogen plasma treatment of vertically aligned carbon nanotube carpets enhances electrocatalytic activity for oxygen reduction reactions in fuel cell applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Diamond Nanowires Modified with Poly[3-(Pyrrolyl) Carboxylic Acid] for the Immobilization of Histidine-Tagged Peptides</div>
-							<div class="pub-authors mt-1">P. Subramanian, I. Mazurenko, V. Zaitsev, Y. Coffinier, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Analyst, 139, 4343 (2014).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Diamond Nanowires Modified with Poly[3-(Pyrrolyl) Carboxylic Acid] for the Immobilization of Histidine-Tagged Peptides</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, I. Mazurenko, V. Zaitsev, Y. Coffinier, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Analyst</em>, 139, 4343, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/c4an00146j" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Diamond nanowires modified with poly[3-(pyrrolyl) carboxylic acid] enable efficient immobilization of histidine-tagged peptides for biosensing applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Carbohydrate-Lectin Interaction on Graphene-Coated Surface Plasmon Resonance (SPR) Interfaces</div>
-							<div class="pub-authors mt-1">A. Penezic, G. Deokar, D. Vignaud, E. Pichonat, H. Happy, P. Subramanian, B. Gašparovi, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Plasmonics, 9, 677 (2014).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Carbohydrate-Lectin Interaction on Graphene-Coated Surface Plasmon Resonance (SPR) Interfaces</div>
+							<div class="pub-authors mt-2">A. Penezic, G. Deokar, D. Vignaud, E. Pichonat, H. Happy, <span class="pub-author">P. Subramanian</span>, B. Gašparovi, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Plasmonics</em>, 9, 677, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s11468-014-9686-3" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Graphene-coated surface plasmon resonance interfaces enable sensitive detection of carbohydrate-lectin interactions for biological sensing applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Preparation of Reduced Graphene Oxide-Ni(OH)2 Composites by Electrophoretic Deposition: Application for Non-Enzymatic Glucose Sensing</div>
-							<div class="pub-authors mt-1">P. Subramanian, J. Niedziolka-Jonsson, A. Lesniewski, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">J. Mater. Chem., A, 2, 5525 (2014).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Preparation of Reduced Graphene Oxide-Ni(OH)2 Composites by Electrophoretic Deposition: Application for Non-Enzymatic Glucose Sensing</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, J. Niedziolka-Jonsson, A. Lesniewski, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Journal of Materials Chemistry A</em>, 2, 5525, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C4TA00123K" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Electrophoretic deposition of reduced graphene oxide-Ni(OH)2 composites creates efficient non-enzymatic glucose sensors with enhanced sensitivity and stability.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Graphene-Coated Surface Plasmon Resonance Interfaces for Studying the Interactions between Cells and Surfaces</div>
-							<div class="pub-authors mt-1">P. Subramanian, F. Barka-Bouaifel, J. Bouckaert, N. Yamakawa, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">ACS Appl. Mater. Interfaces, 6, 5422 (2014).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Graphene-Coated Surface Plasmon Resonance Interfaces for Studying the Interactions between Cells and Surfaces</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, F. Barka-Bouaifel, J. Bouckaert, N. Yamakawa, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>ACS Applied Materials & Interfaces</em>, 6, 5422, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1021/am405541z" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Graphene-coated surface plasmon resonance interfaces provide advanced platforms for studying cell-surface interactions with enhanced sensitivity and biocompatibility.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Impedimetric Immunosensor Based on Diamond Nanowires Decorated with Nickel Nanoparticles</div>
-							<div class="pub-authors mt-1">P. Subramanian, A. Motorina, W. S. Yeap, K. Haenen, Y. Coffinier, V. Zaitsev, J. Niedziolka-Jonsson, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Analyst, 139, 1726 (2014).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Impedimetric Immunosensor Based on Diamond Nanowires Decorated with Nickel Nanoparticles</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, A. Motorina, W. S. Yeap, K. Haenen, Y. Coffinier, V. Zaitsev, J. Niedziolka-Jonsson, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Analyst</em>, 139, 1726, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C3AN02045B" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-6')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-6" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Diamond nanowires decorated with nickel nanoparticles create impedimetric immunosensors with enhanced sensitivity for biological detection applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Enhancing LSPR Sensitivity of Au Gratings Through Graphene Coupling to Au Film</div>
-							<div class="pub-authors mt-1">T. Maurer, R. Nicolas, G. Lévêque, P. Subramanian, J. Proust, J. Béal, S. Schuermans, J.-P. Vilcot, Z. Herro, M. Kazan, J. Plain, R. Boukherroub, A. Akjouj, B. Djafari-Rouhani, P.-M. Adam, S. Szunerits</div>
-							<div class="pub-congress">Plasmonics, 9, 507 (2014).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Enhancing LSPR Sensitivity of Au Gratings Through Graphene Coupling to Au Film</div>
+							<div class="pub-authors mt-2">T. Maurer, R. Nicolas, G. Lévêque, <span class="pub-author">P. Subramanian</span>, J. Proust, J. Béal, S. Schuermans, J.-P. Vilcot, Z. Herro, M. Kazan, J. Plain, R. Boukherroub, A. Akjouj, B. Djafari-Rouhani, P.-M. Adam, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Plasmonics</em>, 9, 507, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.48550/arXiv.1311.4633" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-7')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-7" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Graphene coupling to Au film enhances LSPR sensitivity of Au gratings, providing improved plasmonic sensing capabilities for optical applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Nanodiamond Particles/Reduced Graphene Oxide Composites as Efficient Supercapacitor Electrodes</div>
-							<div class="pub-authors mt-1">Q. Wang, N. Plylahan, M. V. Shelke, R. R. Devarapalli, M. Li, P. Subramanian, T. Djenizianc, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Carbon, 68, 175 (2014).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Nanodiamond Particles/Reduced Graphene Oxide Composites as Efficient Supercapacitor Electrodes</div>
+							<div class="pub-authors mt-2">Q. Wang, N. Plylahan, M. V. Shelke, R. R. Devarapalli, M. Li, <span class="pub-author">P. Subramanian</span>, T. Djenizianc, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Carbon</em>, 68, 175, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.carbon.2013.10.077" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-8')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-8" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Nanodiamond particles/reduced graphene oxide composites demonstrate excellent performance as supercapacitor electrodes with enhanced energy storage capabilities.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Insulin Loaded Iron Magnetic Nanoparticle–Graphene Oxide Composites: Synthesis, Characterization and Application for In Vivo Delivery of Insulin</div>
-							<div class="pub-authors mt-1">K. Turcheniuk, M. Khanal, A. Motorina, P. Subramanian, A. Barras, V. Zaitsev, V. Kuncser, A. Leca, A. Martoriati, K. Cailliau, J-F. Bodart, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">RSC Adv., 4, 865 (2014).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Insulin Loaded Iron Magnetic Nanoparticle–Graphene Oxide Composites: Synthesis, Characterization and Application for In Vivo Delivery of Insulin</div>
+							<div class="pub-authors mt-2">K. Turcheniuk, M. Khanal, A. Motorina, <span class="pub-author">P. Subramanian</span>, A. Barras, V. Zaitsev, V. Kuncser, A. Leca, A. Martoriati, K. Cailliau, J-F. Bodart, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>RSC Advances</em>, 4, 865, 2014.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C3RA46307A" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2014-9')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2014-9" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Iron magnetic nanoparticle-graphene oxide composites loaded with insulin enable efficient in vivo insulin delivery with controlled drug release capabilities.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2013 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2013</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Simultaneous Electrochemical Detection of Tryptophan and Tyrosine using Boron-Doped Diamond and Diamond Nanowire Electrodes</div>
-							<div class="pub-authors mt-1">Q. Wang, A. Vasilescu, P. Subramanian, A. Vezeanu, V. Andrei, Y. Coffinier, M. Li, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Electrochem. Commun., 35, 84 (2013).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Simultaneous Electrochemical Detection of Tryptophan and Tyrosine using Boron-Doped Diamond and Diamond Nanowire Electrodes</div>
+							<div class="pub-authors mt-2">Q. Wang, A. Vasilescu, <span class="pub-author">P. Subramanian</span>, A. Vezeanu, V. Andrei, Y. Coffinier, M. Li, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Electrochemistry Communications</em>, 35, 84, 2013.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.elecom.2013.08.010" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2013-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2013-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Novel boron-doped diamond and diamond nanowire electrodes enable simultaneous detection of tryptophan and tyrosine with enhanced sensitivity and selectivity.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Non-Enzymatic Glucose Sensing on long and short Diamond Nanowire Electrodes</div>
-							<div class="pub-authors mt-1">Q. Wang, P. Subramanian, M. Li, W. S. Yeap, K. Haenen, Y. Coffinier, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Electrochem. Commun., 34, 286 (2013).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Non-Enzymatic Glucose Sensing on Long and Short Diamond Nanowire Electrodes</div>
+							<div class="pub-authors mt-2">Q. Wang, <span class="pub-author">P. Subramanian</span>, M. Li, W. S. Yeap, K. Haenen, Y. Coffinier, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Electrochemistry Communications</em>, 34, 286, 2013.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.elecom.2013.07.014" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2013-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2013-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Comparison of long and short diamond nanowire electrodes for non-enzymatic glucose sensing reveals enhanced performance for biosensor applications.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Lysozyme Detection on Aptamer Functionalized Graphene-Coated SPR Interfaces</div>
-							<div class="pub-authors mt-1">P. Subramanian, A. Lesniewski, I. Kaminska, A. Vlandas, A. Vasilescu, J. Niedziolka-Jonsson, E. Pichonat, H. Happy, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Biosens. Bioelectron., 50, 239 (2013).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Lysozyme Detection on Aptamer Functionalized Graphene-Coated SPR Interfaces</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, A. Lesniewski, I. Kaminska, A. Vlandas, A. Vasilescu, J. Niedziolka-Jonsson, E. Pichonat, H. Happy, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Biosensors and Bioelectronics</em>, 50, 239, 2013.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.bios.2013.06.026" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2013-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2013-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Development of aptamer-functionalized graphene-coated SPR interfaces enables sensitive and selective detection of lysozyme protein.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Peroxynitrite Activity of Hemin-Functionalized Reduced Graphene Oxide</div>
-							<div class="pub-authors mt-1">R. Oprea, S.F. Peteu, P. Subramanian, W. Qi, E. Pichonat, H. Happy, M. Bayachou, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Analyst, 138, 4345 (2013).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Peroxynitrite Activity of Hemin-Functionalized Reduced Graphene Oxide</div>
+							<div class="pub-authors mt-2">R. Oprea, S.F. Peteu, <span class="pub-author">P. Subramanian</span>, W. Qi, E. Pichonat, H. Happy, M. Bayachou, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Analyst</em>, 138, 4345, 2013.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/c3an00678f" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2013-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2013-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Hemin-functionalized reduced graphene oxide demonstrates enhanced peroxynitrite activity with potential applications in sensing and catalysis.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Diamond Nanowires Decorated with Metallic Nanoparticles: A Novel Electrical Interface for Immobilization of Histidinylated Biomolecuels</div>
-							<div class="pub-authors mt-1">P. Subramanian, Y. Coffinier, D. Steinmüller-Nethl, J. Foord, R. Boukherroub, S. Szunerits</div>
-							<div class="pub-congress">Electrochim. Acta, 110, 4 (2013).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Diamond Nanowires Decorated with Metallic Nanoparticles: A Novel Electrical Interface for Immobilization of Histidinylated Biomolecules</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, Y. Coffinier, D. Steinmüller-Nethl, J. Foord, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Electrochimica Acta</em>, 110, 4, 2013.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.electacta.2012.11.010" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2013-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2013-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Metal nanoparticle-decorated diamond nanowires provide novel electrical interfaces for effective immobilization of histidinylated biomolecules.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2012 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2012</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Mechanochemical Synthesis and Characterization of High Quality Poly(2,5-Dimethoxy Aniline) Salts</div>
-							<div class="pub-authors mt-1">P. Subramanian, Y-T. Chang, C-M. Liu, P.Manisankar</div>
-							<div class="pub-congress">J. Appl. Polym. Sci.,124, 4281(2012).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Mechanochemical Synthesis and Characterization of High Quality Poly(2,5-Dimethoxy Aniline) Salts</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, Y-T. Chang, C-M. Liu, P. Manisankar</div>
+							<div class="pub-journal mt-2"><em>Journal of Applied Polymer Science</em>, 124, 4281, 2012.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1002/app.35416" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2012-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2012-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									High-quality poly(2,5-dimethoxy aniline) salts synthesized via mechanochemical method demonstrate enhanced conductivity and stability for polymer applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2011 -->
-					<div class="row mt-3">
+					<div class="row mt-4">
 						<h2 class="pub-year-h2">2011</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Localized Surface Plasmon Resonance Interfaces Coated with Poly[3-(Pyrrolyl)Carboxylic Acid] for Histidine-Tagged Peptide Sensing</div>
-							<div class="pub-authors mt-1">F-Z. Tighilt, P. Subramanian, N. Belhaneche-Bensemra, R. Boukherroub, N. Gabouze, S. Sam and S. Szunerits</div>
-							<div class="pub-congress">Analyst, 136, 4211 (2011).</div>
+						<div class="section-card publication-card">
+							<div class="publication-title h5">Localized Surface Plasmon Resonance Interfaces Coated with Poly[3-(Pyrrolyl)Carboxylic Acid] for Histidine-Tagged Peptide Sensing</div>
+							<div class="pub-authors mt-2">F-Z. Tighilt, <span class="pub-author">P. Subramanian</span>, N. Belhaneche-Bensemra, R. Boukherroub, N. Gabouze, S. Sam, S. Szunerits</div>
+							<div class="pub-journal mt-2"><em>Analyst</em>, 136, 4211, 2011.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1039/C1AN15535K" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2011-1')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2011-1" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Novel LSPR interfaces with poly[3-(pyrrolyl)carboxylic acid] coating enable sensitive detection of histidine-tagged peptides with enhanced surface plasmon properties.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Mechanochemical Preparation of Polydiphenylamine and its Electrochemical Performance in Hybrid Supercapacitors</div>
-							<div class="pub-authors mt-1">P. Subramanian, P.Manisankar</div>
-							<div class="pub-congress">Electrochim. Acta, 56, 6123 (2011).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Mechanochemical Preparation of Polydiphenylamine and its Electrochemical Performance in Hybrid Supercapacitors</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, P. Manisankar</div>
+							<div class="pub-journal mt-2"><em>Electrochimica Acta</em>, 56, 6123, 2011.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.electacta.2011.04.066" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2011-2')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2011-2" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Mechanochemically prepared polydiphenylamine demonstrates excellent electrochemical performance in hybrid supercapacitors with enhanced energy storage capabilities.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Mechanochemical Synthesis of Poly(2,5-Dimethoxy Aniline) and its Electrochemical Performance in Hybrid Supercapacitors</div>
-							<div class="pub-authors mt-1">P. Subramanian, Yu-Tsern Chang, Chung-Ming Liu, P.Manisankar</div>
-							<div class="pub-congress">Ionics, 17, 603 (2011).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Mechanochemical Synthesis of Poly(2,5-Dimethoxy Aniline) and its Electrochemical Performance in Hybrid Supercapacitors</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, Yu-Tsern Chang, Chung-Ming Liu, P. Manisankar</div>
+							<div class="pub-journal mt-2"><em>Ionics</em>, 17, 603, 2011.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s11581-011-0612-9" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2011-3')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2011-3" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Mechanochemical synthesis of poly(2,5-dimethoxy aniline) yields high-performance materials for hybrid supercapacitor applications with improved energy storage.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Template-Free Mechanochemical Route to Prepare Crystalline and Electroactive Polydiphenylamine Nanostructures</div>
-							<div class="pub-authors mt-1">P. Subramanian, P. Manisankar</div>
-							<div class="pub-congress">Mater. Chem. Phys., 129, 948 (2011).</div>
+						<div class="section-card-alt publication-card mt-3">
+							<div class="publication-title h5">Template-Free Mechanochemical Route to Prepare Crystalline and Electroactive Polydiphenylamine Nanostructures</div>
+							<div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, P. Manisankar</div>
+							<div class="pub-journal mt-2"><em>Materials Chemistry and Physics</em>, 129, 948, 2011.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1016/j.matchemphys.2011.05.024" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2011-4')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2011-4" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Novel template-free mechanochemical synthesis produces crystalline and electroactive polydiphenylamine nanostructures with enhanced properties.
+								</p>
+							</div>
 						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Preparation of a Functional Nanofibrous Polymer Membrane Incorporated with Poly(2-Aminothio Phenol) Stabilized Gold Nanoparticles</div>
-							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
-							<div class="pub-congress">Gold Bull., 44, 37 (2011).</div>
+						<div class="section-card publication-card mt-3">
+							<div class="publication-title h5">Preparation of a Functional Nanofibrous Polymer Membrane Incorporated with Poly(2-Aminothio Phenol) Stabilized Gold Nanoparticles</div>
+							<div class="pub-authors mt-2">S. Komathi, <span class="pub-author">P. Subramanian</span>, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+							<div class="pub-journal mt-2"><em>Gold Bulletin</em>, 44, 37, 2011.</div>
+							<div class="publication-links mt-3">
+								<a href="https://doi.org/10.1007/s13404-011-0005-x" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+									<i class="fa-solid fa-external-link me-1"></i>DOI
+								</a>
+								<button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2011-5')">
+									<i class="fa-solid fa-file-text me-1"></i>Abstract
+								</button>
+							</div>
+							<div id="abstract2011-5" class="abstract-content mt-3" style="display: none;">
+								<p class="small text-muted">
+									Development of functional nanofibrous polymer membranes with integrated gold nanoparticles stabilized by poly(2-aminothio phenol) for advanced applications.
+								</p>
+							</div>
 						</div>
 					</div>
 					<!-- 2010 -->
-					<div class="row mt-3">
-						<h2 class="pub-year-h2">2010</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Preparation of Poly(2-Amino Thiophenol) Nanodiscs by a “Combined Hard-Soft Template” Approach and Characterization</div>
-							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
-							<div class="pub-congress">J. Colloid Interface Sci., 352, 238 (2010).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Electrochemical Synthesis and Characterization of Poly(Aniline-Co-1-Amino-9,10-Anthraquinone), A Nanosized Conducting Copolymer</div>
-							<div class="pub-authors mt-1">P. Subramanian, P. Manisankar</div>
-							<div class="pub-congress">J. Polym. Res., 18, 311 (2011).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Large Scale Preparation of Polyaniline Nanospheres Anchored with Thiol Stabilized Gold Nanoparticles</div>
-							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
-							<div class="pub-congress">J. Nanosci. Nanotechnol.,11, 358 (2011).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Preparation of ultra-long Poly (1,5 Diamino Naphthalene) Nano Belts/ Nano Discs through a Hard-Soft combined Templates Approach</div>
-							<div class="pub-authors mt-1">S.Komathi, P. Subramanian, P.Manisankar, A.Gopalan, K-P. Lee</div>
-							<div class="pub-congress">J. Nanosci. Nanotechnol.,10, 5302 (2010).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Rapid Synthesis of Polypyrrole Nanospheres by Greener Mechanochemical Route</div>
-							<div class="pub-authors mt-1">P. Subramanian, P.Manisankar</div>
-							<div class="pub-congress">Mater. Chem. Phys., 122, 15 (2010).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Electropolymerisation and Characterisation of Nanosize Conducting Poly(O-Chloroaniline-Co -4,4’-Diaminodiphenyl Sulphone) on Polyaniline Modified Electrode</div>
-							<div class="pub-authors mt-1">P. Subramanian, P.Manisankar</div>
-							<div class="pub-congress">Polym. Int., 59, 456 (2010).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Large Scale Preparation of Palladium Nanoparticles Loaded Polyaniline Nanostructures through Seed Induced Bulk Polymerization</div>
-							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
-							<div class="pub-congress">Macromol. Chem. Phys., 211, 1330 (2010).</div>
-						</div>
-						<div class="pub-block mt-3">
-							<div class="lucida-console h5">Enhanced Sensing of Carbendazim, A Fungicide on Functionalized Multiwalled Carbon Nanotubes Modified Glassy Carbon Electrode and its Determination in Real Samples</div>
-							<div class="pub-authors mt-1">PL.Abirama Sundari, P. Subramanian, P.Manisankar</div>
-							<div class="pub-congress">Anal. Lett., 43, 1457 (2010).</div>
-						</div>
-					</div>
-					<!-- 2008 -->
-					<div class="row mt-3">
-						<h2 class="pub-year-h2">2008</h2>
-						<div class="pub-block">
-							<div class="lucida-console h5">Electroanalysis of Some Common Pesticides using Conducting Polymer/Multiwalled Carbon Nanotubes Modified Glassy Carbon Electrode</div>
-							<div class="pub-authors mt-1">P.Manisankar, PL.Abirama Sundari, R.Sasikumar, P. Subramanian</div>
-							<div class="pub-congress">Talanta, 76,1022 (2008).</div>
-						</div>
-					</div>
-    				</div>	
+					<div class="row mt-4">
+                        <h2 class="pub-year-h2">2010</h2>
+                        <div class="section-card publication-card">
+                            <div class="publication-title h5">Preparation of Poly(2-Amino Thiophenol) Nanodiscs by a "Combined Hard-Soft Template" Approach and Characterization</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, S. Komathi, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+                            <div class="pub-journal mt-2"><em>Journal of Colloid and Interface Science</em>, 352, 238, 2010.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1016/j.jcis.2010.08.068" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2010-1')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2010-1" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Development of poly(2-amino thiophenol) nanodiscs using a combined hard-soft template approach demonstrates improved synthesis methods for nanostructured conducting polymers.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-card-alt publication-card mt-3">
+                            <div class="publication-title h5">Preparation of ultra-long Poly(1,5 Diamino Naphthalene) Nano Belts/Nano Discs through a Hard-Soft combined Templates Approach</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, S. Komathi, P. Manisankar, A. Gopalan, K-P. Lee</div>
+                            <div class="pub-journal mt-2"><em>Journal of Nanoscience and Nanotechnology</em>, 10, 5302, 2010.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1166/jnn.2010.2399" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2010-2')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2010-2" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Novel synthesis approach for creating ultra-long poly(1,5 diamino naphthalene) nanostructures using combined templates enables control over morphology and properties.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-card publication-card mt-3">
+                            <div class="publication-title h5">Rapid Synthesis of Polypyrrole Nanospheres by Greener Mechanochemical Route</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, P. Manisankar</div>
+                            <div class="pub-journal mt-2"><em>Materials Chemistry and Physics</em>, 122, 15, 2010.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1016/j.matchemphys.2010.02.051" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2010-3')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2010-3" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Environmentally friendly mechanochemical synthesis method produces polypyrrole nanospheres rapidly and efficiently for potential applications in energy storage and sensors.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-card-alt publication-card mt-3">
+                            <div class="publication-title h5">Electropolymerisation and Characterisation of Nanosize Conducting Poly(O-Chloroaniline-Co-4,4'-Diaminodiphenyl Sulphone) on Polyaniline Modified Electrode</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, P. Manisankar</div>
+                            <div class="pub-journal mt-2"><em>Polymer International</em>, 59, 456, 2010.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1002/pi.2722" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2010-4')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2010-4" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Electropolymerisation of nanosize conducting polymer on modified electrode surfaces demonstrates enhanced electrochemical properties for sensing applications.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-card publication-card mt-3">
+                            <div class="publication-title h5">Large Scale Preparation of Palladium Nanoparticles Loaded Polyaniline Nanostructures through Seed Induced Bulk Polymerization</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, S. Komathi, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+                            <div class="pub-journal mt-2"><em>Macromolecular Chemistry and Physics</em>, 211, 1330, 2010.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1002/macp.200900640" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2010-5')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2010-5" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Scale-up synthesis of palladium nanoparticle-loaded polyaniline nanostructures using seed-induced polymerization enables large-scale production of hybrid catalysts.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-card-alt publication-card mt-3">
+                            <div class="publication-title h5">Enhanced Sensing of Carbendazim, A Fungicide on Functionalized Multiwalled Carbon Nanotubes Modified Glassy Carbon Electrode and its Determination in Real Samples</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, PL. Abirama Sundari, P. Manisankar</div>
+                            <div class="pub-journal mt-2"><em>Analytical Letters</em>, 43, 1457, 2010.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1080/00032710903502066" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2010-6')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2010-6" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Modified carbon nanotube electrodes enable enhanced electrochemical sensing of carbendazim fungicide in environmental samples with improved sensitivity and selectivity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2008 -->
+                    <div class="row mt-4">
+                        <h2 class="pub-year-h2">2008</h2>
+                        <div class="section-card publication-card">
+                            <div class="publication-title h5">Electroanalysis of Some Common Pesticides using Conducting Polymer/Multiwalled Carbon Nanotubes Modified Glassy Carbon Electrode</div>
+                            <div class="pub-authors mt-2"><span class="pub-author">P. Subramanian</span>, P. Manisankar, PL. Abirama Sundari, R. Sasikumar</div>
+                            <div class="pub-journal mt-2"><em>Talanta</em>, 76, 1022, 2008.</div>
+                            <div class="publication-links mt-3">
+                                <a href="https://doi.org/10.1016/j.talanta.2008.04.056" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+                                    <i class="fa-solid fa-external-link me-1"></i>DOI
+                                </a>
+                                <button class="btn btn-outline-info btn-sm" onclick="toggleAbstract('abstract2008-1')">
+                                    <i class="fa-solid fa-file-text me-1"></i>Abstract
+                                </button>
+                            </div>
+                            <div id="abstract2008-1" class="abstract-content mt-3" style="display: none;">
+                                <p class="small text-muted">
+                                    Novel electrode design combining conducting polymers with carbon nanotubes enables sensitive electrochemical detection of common pesticides in environmental samples.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    			</div>	
+				</div>
 				</div>
 
 
 				<!-- Blog -->
 				<div class="col-md-8 offset-md-1 mb-5" id="blogContent">
 					<div class="container">
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/StreaMemory-Benchmark-35739f7f69404274a1d287f6827ef203</div>
-							<div class="h5">⛲ StreaMemory Benchmark</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
+						<!-- Featured Blog Post -->
+						<div class="featured-post p-4 mb-4 bg-light rounded">
+							<div class="clickable language">
+								<div class="d-none">https://palamchem.com/blog/latest-advances-chemical-engineering</div>
+								<div class="h4">🔬 Latest Advances in Chemical Engineering: A 2025 Perspective</div>
+								<div class="blog-info mt-3">
+									<div class="d-inline">
+										<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 30 min
+									</div>
+									<div class="float-end d-inline">
+										<i class="fa-light fa-calendar" aria-hidden="true"></i> 28 sep. 2025
+									</div>
 								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 11 feb. 2022
+								<div class="blog-short mt-3" 
+									data-es="Un análisis profundo de los últimos avances en ingeniería química y sus aplicaciones industriales."
+									data-en="An in-depth analysis of the latest advances in chemical engineering and their industrial applications.">
 								</div>
-							</div>
-
-							<div class="blog-short mt-2" 
-								data-es="Explicación del Stream + Memory benchmark en MGPUSim y los archivos que he tenido que modificar para lograrlo."
-								data-en="Explanation of the Stream + Memory benchmark in MGPUSim and the files I had to modify to achieve it.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#benchmark</span> <span class="tag t-lime">#mgpusim</span> <span class="tag t-purple">#akita</span>
+								<div class="blog-tags mt-2">
+									<span class="tag t-purple">#chemical-engineering</span>
+									<span class="tag t-sky">#innovation</span>
+									<span class="tag t-lime">#industry4.0</span>
+								</div>
 							</div>
 						</div>
 
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/Elementwise-2D-546f8fe9a8a24852a234bdc28b00cd15</div>
-							<div class="h5">🧊 Elementwise 2D Tensor</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 10 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 12 dec. 2022
+						<!-- Regular Blog Posts -->
+						<div class="row">
+							<div class="col-md-6 mb-4">
+								<div class="clickable language h-100">
+									<div class="d-none">https://palamchem.com/blog/sustainable-processes</div>
+									<div class="h5">🌱 Sustainable Chemical Processes</div>
+									<div class="blog-info mt-2">
+										<div class="d-inline">
+											<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
+										</div>
+										<div class="float-end d-inline">
+											<i class="fa-light fa-calendar" aria-hidden="true"></i> 25 sep. 2025
+										</div>
+									</div>
+									<div class="blog-short mt-2" 
+										data-es="Explorando métodos sostenibles en procesos químicos industriales."
+										data-en="Exploring sustainable methods in industrial chemical processes.">
+									</div>
+									<div class="blog-tags mt-1">
+										<span class="tag t-lime">#sustainability</span>
+										<span class="tag t-sky">#green-chemistry</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="blog-short mt-2" 
-								data-es="Explicación de element-wise para un tensor doble (2D) y un caso práctico de porqué no usar tamaños aleatorios para el tamaño de la matriz."
-								data-en="Explanation of element-wise for a double (2D) tensor and a case study of why not to use random sizes for matrix size.">
+							<div class="col-md-6 mb-4">
+								<div class="clickable language h-100">
+									<div class="d-none">https://palamchem.com/blog/ai-chemical-research</div>
+									<div class="h5">🤖 AI in Chemical Research</div>
+									<div class="blog-info mt-2">
+										<div class="d-inline">
+											<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
+										</div>
+										<div class="float-end d-inline">
+											<i class="fa-light fa-calendar" aria-hidden="true"></i> 20 sep. 2025
+										</div>
+									</div>
+									<div class="blog-short mt-2" 
+										data-es="Aplicaciones de inteligencia artificial en investigación química."
+										data-en="Applications of artificial intelligence in chemical research.">
+									</div>
+									<div class="blog-tags mt-1">
+										<span class="tag t-purple">#AI</span>
+										<span class="tag t-sky">#research</span>
+									</div>
+								</div>
 							</div>
 
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
+							<div class="col-md-6 mb-4">
+								<div class="clickable language h-100">
+									<div class="d-none">https://palamchem.com/blog/nanotechnology-advances</div>
+									<div class="h5">🔍 Nanotechnology in Chemical Engineering</div>
+									<div class="blog-info mt-2">
+										<div class="d-inline">
+											<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
+										</div>
+										<div class="float-end d-inline">
+											<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 sep. 2025
+										</div>
+									</div>
+									<div class="blog-short mt-2" 
+										data-es="Avances recientes en nanotecnología aplicada a la ingeniería química."
+										data-en="Recent advances in nanotechnology applied to chemical engineering.">
+									</div>
+									<div class="blog-tags mt-1">
+										<span class="tag t-sky">#nanotechnology</span>
+										<span class="tag t-lime">#innovation</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 mb-4">
+								<div class="clickable language h-100">
+									<div class="d-none">https://palamchem.com/blog/process-optimization</div>
+									<div class="h5">⚡ Process Optimization Techniques</div>
+									<div class="blog-info mt-2">
+										<div class="d-inline">
+											<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 18 min
+										</div>
+										<div class="float-end d-inline">
+											<i class="fa-light fa-calendar" aria-hidden="true"></i> 10 sep. 2025
+										</div>
+									</div>
+									<div class="blog-short mt-2" 
+										data-es="Técnicas modernas de optimización de procesos químicos."
+										data-en="Modern chemical process optimization techniques.">
+									</div>
+									<div class="blog-tags mt-1">
+										<span class="tag t-purple">#optimization</span>
+										<span class="tag t-sky">#efficiency</span>
+									</div>
+								</div>
 							</div>
 						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/Tracing-LDS-Unit-69210a9d8fe44b4a997f8391aa508621</div>
-							<div class="h5">🛤️ Tracing LDS Unit</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 30 nov. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2"
-								data-es="¿Alguna vez has querido adjuntar un tracer a un componente específico dentro de MGPUSim? Incluso si ese 'componente' no es un componente como tal, sino un subcomponente de un componente. Este tutorial te será útil."
-								data-en="Have you ever wanted to attach a tracer to a specific component inside MGPUSim? Even if that 'component' is not a component itself but a subcomponent of a component. This tutorial will be helpful.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#tracing</span>
-							</div>
-						</div>
-
-						<div class="clickable mt-4 language">
-							<div class="d-none">https://nicolasmeseguer.notion.site/DAISEN-Tutorial-9d041575a9b0489099086152fd9a927e</div>
-							<div class="h5">📊 DAISEN Tutorial</div>
-							<div class="blog-info mt-2">
-								<div class="d-inline">
-									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
-								</div>
-
-								<div class="float-end d-inline">
-									<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 nov. 2022
-								</div>
-							</div>
-
-							<div class="blog-short mt-2" 
-								data-es="Breve tutorial sobre la herramienta de visualización DAISEN utilizada para MGPUSim. Este tutorial viene acompañado con un kernel de referencia."
-								data-en="Brief tutorial about the visualization tool DAISEN used for MGPUSim. This tutorial comes along with a kernel example.">
-							</div>
-
-							<div class="blog-tags mt-1">
-								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#daisen</span>
-							</div>
-						</div>
-						
 					</div>
 				</div>
 
@@ -1382,14 +2435,123 @@
 
 				<!-- Projects -->
 				<div class="col-md-8 offset-md-1" id="projectsContent">
-					<div class="container language">
-						🌲 
-						<span 
-							data-es="Tienes todo el tiempo en el mundo para diseñar esta página"
-							data-en="You have all the time in the world to design this page.">
-						</span>
-						🌍
+					<div class="container">
+						<div class="row mt-2 language">
+							<h2 class="mt-2">Projects</h2>
+
+							<!-- Advanced Materials Project -->
+							<div class="section-card mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Advanced Materials for Energy Storage</h4>
+									<span class="badge bg-success">Active</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2021 - Present</span>
+									<span class="me-3"><i class="fa-regular fa-building me-1"></i>NTC</span>
+									<span><i class="fa-regular fa-user me-1"></i>Lead Researcher</span>
+								</div>
+								<p class="justify">
+									Leading research initiatives in developing next-generation energy storage materials and devices.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Key Achievements:</h6>
+									<ul class="mb-3">
+										<li>Novel electrode materials for Li-ion batteries</li>
+										<li>Metal-air battery systems optimization</li>
+										<li>Advanced electrocatalyst design</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fa-regular fa-file-lines me-1"></i>Publications</a>
+									<a href="#" class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-arrow-up-right-from-square me-1"></i>Project Site</a>
+								</div>
+							</div>
+
+							<!-- Material Analytics -->
+							<div class="section-card-alt mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Materials Analytics Platform</h4>
+									<span class="badge bg-success">Active</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2021 - Present</span>
+									<span class="me-3"><i class="fa-regular fa-building me-1"></i>NTC</span>
+									<span><i class="fa-regular fa-user me-1"></i>Project Director</span>
+								</div>
+								<p class="justify">
+									Comprehensive material characterization and performance assessment platform development.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Key Features:</h6>
+									<ul class="mb-3">
+										<li>Advanced electrochemical characterization</li>
+										<li>Surface analysis automation</li>
+										<li>Real-time performance monitoring</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fa-brands fa-github me-1"></i>Repository</a>
+									<a href="#" class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-arrow-up-right-from-square me-1"></i>Documentation</a>
+								</div>
+							</div>
+
+							<!-- Fuel Cell Research -->
+							<div class="section-card mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Fuel Cell Technology Development</h4>
+									<span class="badge bg-success">Active</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2021 - Present</span>
+									<span class="me-3"><i class="fa-regular fa-building me-1"></i>NTC</span>
+									<span><i class="fa-regular fa-user me-1"></i>Team Lead</span>
+								</div>
+								<p class="justify">
+									Advanced fuel cell systems development focusing on efficiency and durability improvements.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Major Milestones:</h6>
+									<ul class="mb-3">
+										<li>Novel catalyst material development</li>
+										<li>Electrode structure optimization</li>
+										<li>Commercial scale-up validation</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fa-regular fa-file-lines me-1"></i>Publications</a>
+									<a href="#" class="btn btn-sm btn-outline-info"><i class="fa-regular fa-presentation-screen me-1"></i>Results</a>
+								</div>
+							</div>
+
+							<!-- Past Projects -->
+							<div class="section-card-alt mb-4">
+								<div class="d-flex justify-content-between align-items-start">
+									<h4 class="mb-2">Academic Research Portfolio</h4>
+									<span class="badge bg-secondary">Completed</span>
+								</div>
+								<div class="project-meta mb-3">
+									<span class="me-3"><i class="fa-regular fa-calendar me-1"></i>2014 - 2021</span>
+									<span class="me-3"><i class="fa-regular fa-buildings me-1"></i>Multiple Institutions</span>
+									<span><i class="fa-regular fa-user me-1"></i>Researcher</span>
+								</div>
+								<p class="justify">
+									Research projects across multiple international institutions focusing on advanced materials and electrochemistry.
+								</p>
+								<div class="key-points mt-3">
+									<h6 class="mb-2">Key Projects:</h6>
+									<ul class="mb-3">
+										<li>Electroanalytical methods (KU Leuven)</li>
+										<li>Zinc-air battery research (Ewha Woman's University)</li>
+										<li>Plasmon-induced transformations (Ariel University)</li>
+									</ul>
+								</div>
+								<div class="project-links">
+									<a href="#" class="btn btn-sm btn-outline-primary"><i class="fa-regular fa-file-lines me-1"></i>Publications</a>
+								</div>
+							</div>
+
 						</div>
+					</div>
 				</div>
 
 				<!-- Photos -->
@@ -1431,46 +2593,37 @@
 			}
 		});
 
-				// Navbar section switching logic
-				function showSection(sectionId) {
-					// Hide all content sections
-					const sections = [
-						'homeContent', 'aboutmeContent', 'educationContent', 'publicationsContent',
-						'blogContent', 'academicContent', 'conferencesContent', 'experienceContent', 'projectsContent'
-					];
-					sections.forEach(id => {
-						const el = document.getElementById(id);
-						if (el) {
-							el.style.display = 'none';
-							el.classList.remove('active');
-						}
-					});
-					// Show selected section
-					const activeSection = document.getElementById(sectionId);
-					if (activeSection) {
-						activeSection.style.display = '';
-						activeSection.classList.add('active');
-					}
-					// Set active class on navbar
-					document.querySelectorAll('#navbarList .nav-link').forEach(link => {
-						link.classList.remove('active');
-					});
-					const navLink = document.getElementById(sectionId.replace('Content', ''));
-					if (navLink) {
-						navLink.classList.add('active');
-					}
-				}
+                // Show Home section by default
+                $(document).ready(function() {
+                    // Hide all sections except home
+                    $('#aboutmeContent').hide();
+                    $('#educationContent').hide();
+                    $('#publicationsContent').hide();
+                    $('#blogContent').hide();
+                    $('#projectsContent').hide();
+                    $('#academicContent').hide();
+                    $('#conferencesContent').hide();
+                    $('#experienceContent').hide();
 
-				// Add click listeners for navbar items
-				document.querySelectorAll('#navbarList .nav-link').forEach(link => {
-					link.addEventListener('click', function(e) {
-						e.preventDefault();
-						showSection(this.id + 'Content');
-					});
-				});
+                    // Show home section
+                    $('#homeContent').show();
 
-				// Show Home section by default
-				showSection('homeContent');
+                    // Handle navigation clicks
+                    $('#navbarList .nav-link').on('click', function(e) {
+                        e.preventDefault();
+                        const targetSection = '#' + this.id + 'Content';
+                        
+                        // Hide all sections
+                        $('.content').hide();
+                        
+                        // Show target section
+                        $(targetSection).show();
+                        
+                        // Update active state in nav
+                        $('#navbarList .nav-link').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                });
 	});
 
 	// Toggle abstract visibility
